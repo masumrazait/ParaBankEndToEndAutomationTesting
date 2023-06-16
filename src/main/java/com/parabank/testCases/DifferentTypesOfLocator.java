@@ -4,6 +4,7 @@ import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class DifferentTypesOfLocator {
@@ -32,6 +33,14 @@ public class DifferentTypesOfLocator {
 		
 		//Tag class & attribute
 		driver.findElement(By.cssSelector("input.input[name=ssn]")).sendKeys("Razaa");
+		
+		//Syntax for Relative xpath
+		//tagName[@attribute='value']
+		
+		WebElement Xpath=driver.findElement(By.xpath("//input[@name='firstName']"));
+		Xpath.clear();
+		Xpath.sendKeys("Hello");
+		
 		
 		Thread.sleep(5000);
 		
