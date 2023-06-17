@@ -1,4 +1,6 @@
 package com.parabank.testCases;
+import java.io.IOException;
+
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
@@ -9,7 +11,7 @@ import com.parabank.pageObjects.LoginPage;
 public class PB_Login_TestCase extends BaseClass {
 
 	@Test
-	public void loginTest() throws InterruptedException {
+	public void loginTest() throws InterruptedException, IOException {
 		
 		logger.info("URL is opened");
 		
@@ -23,15 +25,17 @@ public class PB_Login_TestCase extends BaseClass {
 		
 		lp.clickSubmit();
 		logger.info("User clicked on Login Button");
-		
-		WebDriverWait wait=new WebDriverWait(driver, 10);
-		wait.until(ExpectedConditions.titleContains("ParaBank | Accounts Overview"));
-		
+				
 		if(driver.getTitle().equals("ParaBank | Accounts Overview"))
 		{
 			Assert.assertTrue(true);
-		}else {
+			logger.info("Login test passed");
+		}
+		else
+		{
+			captureScreen(driver,"loginTest");
 			Assert.assertTrue(false);
+			logger.info("Login test failed");
 		}
 	
 	}

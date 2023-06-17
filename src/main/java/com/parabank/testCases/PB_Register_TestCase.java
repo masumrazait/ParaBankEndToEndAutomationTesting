@@ -1,5 +1,7 @@
 package com.parabank.testCases;
 
+import java.io.IOException;
+
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
@@ -10,7 +12,7 @@ import com.parabank.pageObjects.RegisterPage;
 public class PB_Register_TestCase extends BaseClass {
 
 	@Test
-	public void RegisterTest() throws InterruptedException {
+	public void RegisterTest() throws InterruptedException, IOException {
 		
 		logger.info("URL is opened");
 		RegisterPage rp=new RegisterPage(driver);
@@ -56,8 +58,17 @@ public class PB_Register_TestCase extends BaseClass {
 		WebDriverWait wait= new WebDriverWait(driver, 10);
 		wait.until(ExpectedConditions.titleContains(readconfig.getDesboardTitle()));
 		
-		System.out.println(driver.getTitle());
-		Assert.assertEquals(readconfig.getDesboardTitle(),driver.getTitle());	
+		if(driver.getTitle().equals(readconfig.getDesboardTitle()))
+		{
+			Assert.assertTrue(true);
+			logger.info("Account created Successfully! Customer landed to Para Bank Deshboard");
+		}
+		else
+		{
+			captureScreen(driver,"RegisterTest");
+			Assert.assertTrue(false);
+			logger.info("Account not created!");
+		}	
 	}
 
 }

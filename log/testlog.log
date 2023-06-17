@@ -1,17 +1,37 @@
-2023-06-18 02:35:58,210 - ParaBanking -INFO - URL is opened
-2023-06-18 02:35:59,178 - ParaBanking -INFO - User clicked on register Link
-2023-06-18 02:35:59,267 - ParaBanking -INFO - User Entered the First Name.
-2023-06-18 02:35:59,323 - ParaBanking -INFO - User Entered the Last Name.
-2023-06-18 02:35:59,379 - ParaBanking -INFO - User Entered the Address.
-2023-06-18 02:35:59,433 - ParaBanking -INFO - User Entered the City.
-2023-06-18 02:35:59,490 - ParaBanking -INFO - User Entered the State.
-2023-06-18 02:35:59,540 - ParaBanking -INFO - User Entered the ZipCode.
-2023-06-18 02:35:59,601 - ParaBanking -INFO - User Entered the PhoneNumber.
-2023-06-18 02:35:59,654 - ParaBanking -INFO - User Entered the Ssn.
-2023-06-18 02:35:59,707 - ParaBanking -INFO - User Entered the Username.
-2023-06-18 02:35:59,760 - ParaBanking -INFO - User Entered the Password.
-2023-06-18 02:35:59,815 - ParaBanking -INFO - User Entered the RepeatedPassword.
-2023-06-18 02:36:05,255 - ParaBanking -INFO - URL is opened
-2023-06-18 02:36:05,317 - ParaBanking -INFO - User entered the User Name:
-2023-06-18 02:36:05,375 - ParaBanking -INFO - User entered the password:
-2023-06-18 02:36:06,253 - ParaBanking -INFO - User clicked on Login Button
+2023-06-18 02:55:09,476 - ParaBanking -INFO - URL is opened
+2023-06-18 02:55:10,749 - ParaBanking -INFO - User clicked on register Link
+2023-06-18 02:55:10,829 - ParaBanking -INFO - User Entered the First Name.
+2023-06-18 02:55:10,880 - ParaBanking -INFO - User Entered the Last Name.
+2023-06-18 02:55:10,939 - ParaBanking -INFO - User Entered the Address.
+2023-06-18 02:55:10,995 - ParaBanking -INFO - User Entered the City.
+2023-06-18 02:55:11,056 - ParaBanking -INFO - User Entered the State.
+2023-06-18 02:55:11,112 - ParaBanking -INFO - User Entered the ZipCode.
+2023-06-18 02:55:11,168 - ParaBanking -INFO - User Entered the PhoneNumber.
+2023-06-18 02:55:11,219 - ParaBanking -INFO - User Entered the Ssn.
+2023-06-18 02:55:11,276 - ParaBanking -INFO - User Entered the Username.
+2023-06-18 02:55:11,327 - ParaBanking -INFO - User Entered the Password.
+2023-06-18 02:55:11,379 - ParaBanking -INFO - User Entered the RepeatedPassword.
+2023-06-18 02:55:12,109 - ParaBanking -INFO - Account created Successfully! Customer landed to Para Bank Deshboard
+2023-06-18 02:55:16,749 - ParaBanking -INFO - URL is opened
+2023-06-18 02:55:16,820 - ParaBanking -INFO - User entered the User Name:
+2023-06-18 02:55:16,879 - ParaBanking -INFO - User entered the password:
+2023-06-18 02:55:17,822 - ParaBanking -INFO - User clicked on Login Button
+2023-06-18 02:55:17,835 - ParaBanking -INFO - Login test passed
+2023-06-18 02:56:26,074 - ParaBanking -INFO - URL is opened
+2023-06-18 02:56:26,649 - ParaBanking -INFO - User clicked on register Link
+2023-06-18 02:56:26,742 - ParaBanking -INFO - User Entered the First Name.
+2023-06-18 02:56:26,792 - ParaBanking -INFO - User Entered the Last Name.
+2023-06-18 02:56:26,844 - ParaBanking -INFO - User Entered the Address.
+2023-06-18 02:56:26,903 - ParaBanking -INFO - User Entered the City.
+2023-06-18 02:56:26,969 - ParaBanking -INFO - User Entered the State.
+2023-06-18 02:56:27,018 - ParaBanking -INFO - User Entered the ZipCode.
+2023-06-18 02:56:27,086 - ParaBanking -INFO - User Entered the PhoneNumber.
+2023-06-18 02:56:27,142 - ParaBanking -INFO - User Entered the Ssn.
+2023-06-18 02:56:27,193 - ParaBanking -INFO - User Entered the Username.
+2023-06-18 02:56:27,248 - ParaBanking -INFO - User Entered the Password.
+2023-06-18 02:56:27,302 - ParaBanking -INFO - User Entered the RepeatedPassword.
+2023-06-18 02:56:27,923 - ParaBanking -INFO - Account created Successfully! Customer landed to Para Bank Deshboard
+2023-06-18 02:56:32,438 - ParaBanking -INFO - URL is opened
+2023-06-18 02:56:32,495 - ParaBanking -INFO - User entered the User Name:
+2023-06-18 02:56:32,559 - ParaBanking -INFO - User entered the password:
+2023-06-18 02:56:33,128 - ParaBanking -INFO - User clicked on Login Button
