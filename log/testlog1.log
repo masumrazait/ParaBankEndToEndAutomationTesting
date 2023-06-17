@@ -1,49 +1,17 @@
-2022-03-30 20:50:06,490 [main] INFO UnifyTree - URL is opened
-2022-03-30 20:50:06,781 [main] INFO UnifyTree - Entered username
-2022-03-30 20:50:06,925 [main] INFO UnifyTree - Entered password
-2022-03-30 20:50:08,714 [main] INFO UnifyTree - Login test passed
-2022-03-30 20:50:20,457 [main] INFO UnifyTree - URL is opened
-2022-03-30 21:15:07,973 [main] INFO UnifyTree - URL is opened
-2022-03-30 21:15:08,307 [main] INFO UnifyTree - Entered username
-2022-03-30 21:15:08,781 [main] INFO UnifyTree - Entered password
-2022-03-30 21:15:10,201 [main] INFO UnifyTree - Login test passed
-2022-03-30 21:15:19,323 [main] INFO UnifyTree - URL is opened
-2022-03-30 21:20:48,854 [main] INFO UnifyTree - URL is opened
-2022-03-30 21:20:49,206 [main] INFO UnifyTree - Entered username
-2022-03-30 21:20:49,397 [main] INFO UnifyTree - Entered password
-2022-03-30 21:23:01,978 [main] INFO UnifyTree - URL is opened
-2022-03-30 23:51:17,561 [main] INFO UnifyTree - URL is opened
-2022-03-30 23:51:17,947 [main] INFO UnifyTree - Entered username
-2022-03-30 23:51:18,096 [main] INFO UnifyTree - Entered password
-2022-03-30 23:51:19,970 [main] INFO UnifyTree - Login test passed
-2022-03-30 23:51:27,188 [main] INFO UnifyTree - URL is opened
-2022-03-31 14:01:28,975 [main] INFO UnifyTree - URL is opened
-2022-03-31 14:01:29,668 [main] INFO UnifyTree - Entered username
-2022-03-31 14:01:29,821 [main] INFO UnifyTree - Entered password
-2022-03-31 14:01:31,371 [main] INFO UnifyTree - Login test passed
-2022-03-31 14:01:40,447 [main] INFO UnifyTree - URL is opened
-2022-03-31 18:15:00,357 [main] INFO UnifyTree - URL is opened
-2022-03-31 18:15:00,686 [main] INFO UnifyTree - Entered username
-2022-03-31 18:15:01,009 [main] INFO UnifyTree - Entered password
-2022-03-31 18:15:02,555 [main] INFO UnifyTree - Login test passed
-2022-03-31 18:15:13,185 [main] INFO UnifyTree - URL is opened
-2023-06-12 19:15:44,712 [main] INFO UnifyTree - URL is opened
-2023-06-12 19:15:44,796 [main] INFO UnifyTree - Entered username
-2023-06-12 19:15:44,870 [main] INFO UnifyTree - Entered password
-2023-06-12 19:15:45,444 [main] INFO UnifyTree - Login test passed
-2023-06-12 19:15:49,050 [main] INFO UnifyTree - URL is opened
-2023-06-12 19:22:45,391 [main] INFO UnifyTree - URL is opened
-2023-06-12 19:22:45,482 [main] INFO UnifyTree - Entered username
-2023-06-12 19:22:45,557 [main] INFO UnifyTree - Entered password
-2023-06-12 19:22:46,136 [main] INFO UnifyTree - Login test passed
-2023-06-12 19:22:50,706 [main] INFO UnifyTree - URL is opened
-2023-06-15 01:49:25,862 [main] INFO UnifyTree - URL is opened
-2023-06-15 01:49:25,934 [main] INFO UnifyTree - Entered username
-2023-06-15 01:49:25,990 [main] INFO UnifyTree - Entered password
-2023-06-15 01:49:26,467 [main] INFO UnifyTree - Login test passed
-2023-06-15 01:49:31,961 [main] INFO UnifyTree - URL is opened
-2023-06-15 01:52:01,298 [main] INFO UnifyTree - URL is opened
-2023-06-15 01:52:01,387 [main] INFO UnifyTree - Entered username
-2023-06-15 01:52:01,447 [main] INFO UnifyTree - Entered password
-2023-06-15 01:52:02,128 [main] INFO UnifyTree - Login test passed
-2023-06-15 01:52:10,180 [main] INFO UnifyTree - URL is opened
+2023-06-18 02:35:58,210 [main] INFO ParaBanking - URL is opened
+2023-06-18 02:35:59,178 [main] INFO ParaBanking - User clicked on register Link
+2023-06-18 02:35:59,267 [main] INFO ParaBanking - User Entered the First Name.
+2023-06-18 02:35:59,323 [main] INFO ParaBanking - User Entered the Last Name.
+2023-06-18 02:35:59,379 [main] INFO ParaBanking - User Entered the Address.
+2023-06-18 02:35:59,433 [main] INFO ParaBanking - User Entered the City.
+2023-06-18 02:35:59,490 [main] INFO ParaBanking - User Entered the State.
+2023-06-18 02:35:59,540 [main] INFO ParaBanking - User Entered the ZipCode.
+2023-06-18 02:35:59,601 [main] INFO ParaBanking - User Entered the PhoneNumber.
+2023-06-18 02:35:59,654 [main] INFO ParaBanking - User Entered the Ssn.
+2023-06-18 02:35:59,707 [main] INFO ParaBanking - User Entered the Username.
+2023-06-18 02:35:59,760 [main] INFO ParaBanking - User Entered the Password.
+2023-06-18 02:35:59,815 [main] INFO ParaBanking - User Entered the RepeatedPassword.
+2023-06-18 02:36:05,255 [main] INFO ParaBanking - URL is opened
+2023-06-18 02:36:05,317 [main] INFO ParaBanking - User entered the User Name:
+2023-06-18 02:36:05,375 [main] INFO ParaBanking - User entered the password:
+2023-06-18 02:36:06,253 [main] INFO ParaBanking - User clicked on Login Button

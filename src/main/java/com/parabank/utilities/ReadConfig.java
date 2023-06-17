@@ -41,67 +41,79 @@ public class ReadConfig {
 		return url;
 	}
 
-	// For Insurance Register Page
-	public String getFirstName() {
-		String userFirstName = pro.getProperty("firstname");
-		return userFirstName;
+	// For Register Page
+	public String clickOnRegister() {
+		return pro.getProperty("registrLink");
+	}
+	
+	public String getCustomerFirstName() {
+		String CustomerFirstName = pro.getProperty("CustomerFirstName");
+		return CustomerFirstName;
 	}
 
-	public String getSurname() {
-		String surname = pro.getProperty("lastname");
-		return surname;
+	public String getCustomerLastName() {
+		String CustomerLastName = pro.getProperty("CustomerLastName");
+		return CustomerLastName;
 	}
 
-	public String getPhoneNumber() {
-		String phone = pro.getProperty("phone");
-		return phone;
+	public String getCustomerAddress() {
+		String CustomerAddress = pro.getProperty("CustomerAddress");
+		return CustomerAddress;
 	}
 	
-	public String getAddressStreet() {
-		String AddressStreet = pro.getProperty("street");
-		return AddressStreet;
+	public String getCustomerCity() {
+		String CustomerCity = pro.getProperty("CustomerCity");
+		return CustomerCity;
 	}
 	
-	public String getCityName() {
-		String City = pro.getProperty("city");
-		return City;
+	public String getCustomerState() {
+		String CustomerState = pro.getProperty("CustomerState");
+		return CustomerState;
 	}
 	
-	public String getCountyName() {
-		String County = pro.getProperty("county");
-		return County;
+	public String getCustomerZipCode() {
+		String CustomerZipCode = pro.getProperty("CustomerZipCode");
+		return CustomerZipCode;
 	}
 	
-	public String getPostcode() {
-		String Postcode = pro.getProperty("post_code");
-		return Postcode;
+	public String getCustomerPhoneNumber() {
+		String CustomerPhoneNumber = pro.getProperty("CustomerPhoneNumber");
+		return CustomerPhoneNumber;
 	}
 	
-	public String getEmailId() {
-		String Email = pro.getProperty("email");
-		return Email;
+	public String getCustomerSsn() {
+		String CustomerSsn = pro.getProperty("CustomerSsn");
+		return CustomerSsn;
 	}
 	
-	public String getPassword() {
-		String Password = pro.getProperty("password");
-		return Password;
+	public String getCustomerUsername() {
+		String CustomerUsername = pro.getProperty("CustomerUsername");
+		return CustomerUsername;
 	}
 	
-	public String getCPassword() {
-		String CPassword = pro.getProperty("c_password");
-		return CPassword;
+	public String getCustomerPassword() {
+		String CustomerPassword = pro.getProperty("CustomerPassword");
+		return CustomerPassword;
+	}
+	
+	public String getCustomerRepeatedPassword() {
+		String CustomerRepeatedPassword = pro.getProperty("CustomerRepeatedPassword");
+		return CustomerRepeatedPassword;
 	}
 	
 	//For Login 
-	public String getUserId() {
-		String userId = pro.getProperty("username");
-		return userId;
+	public String getUsernameID() {
+		String UsernameID = pro.getProperty("UsernameID");
+		return UsernameID;
 	}
 	
-	public String getUserPassword() {
-		String uPassword = pro.getProperty("upassword");
-		return uPassword;
+	public String getUserPasswordId() {
+		String UserPasswordId = pro.getProperty("UserPasswordId");
+		return UserPasswordId;
 	}
 	
+	public String getDesboardTitle() {
+		return pro.getProperty("DesboardTitle");
+	}
 
 }
