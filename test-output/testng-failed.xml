@@ -9,8 +9,8 @@
     <classes>
       <class name="com.parabank.testCases.PB_Login_TestCase">
         <methods>
-          <include name="loginTest"/>
           <include name="setup"/>
+          <include name="loginTestWithoutCredentials"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- com.parabank.testCases.PB_Login_TestCase -->

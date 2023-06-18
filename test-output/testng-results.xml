@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
+<testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-06-18T02:56:20 IST" name="ParaBankingSuite" finished-at="2023-06-18T02:56:43 IST" duration-ms="22764">
+  <suite started-at="2023-06-18T17:25:50 IST" name="ParaBankingSuite" finished-at="2023-06-18T17:26:15 IST" duration-ms="25409">
     <groups>
     </groups>
-    <test started-at="2023-06-18T02:56:20 IST" name="ParaBanking Test" finished-at="2023-06-18T02:56:43 IST" duration-ms="22764">
+    <test started-at="2023-06-18T17:25:50 IST" name="ParaBanking Test" finished-at="2023-06-18T17:26:15 IST" duration-ms="25409">
       <class name="com.parabank.testCases.PB_Login_TestCase">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.parabank.testCases.PB_Login_TestCase@4716be8b]" started-at="2023-06-18T02:56:28 IST" name="setup" finished-at="2023-06-18T02:56:32 IST" duration-ms="4328" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.parabank.testCases.PB_Login_TestCase@2f67b837]" started-at="2023-06-18T17:25:58 IST" name="setup" finished-at="2023-06-18T17:26:02 IST" duration-ms="4288" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,26 +18,34 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginTest()[pri:0, instance:com.parabank.testCases.PB_Login_TestCase@4716be8b]" started-at="2023-06-18T02:56:32 IST" name="loginTest" finished-at="2023-06-18T02:56:43 IST" duration-ms="10997" status="FAIL">
+        <test-method signature="loginTest()[pri:0, instance:com.parabank.testCases.PB_Login_TestCase@2f67b837]" started-at="2023-06-18T17:26:02 IST" name="loginTest" finished-at="2023-06-18T17:26:04 IST" duration-ms="2159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="loginTestInvalidCredentials()[pri:1, instance:com.parabank.testCases.PB_Login_TestCase@2f67b837]" started-at="2023-06-18T17:26:04 IST" name="loginTestInvalidCredentials" finished-at="2023-06-18T17:26:04 IST" duration-ms="484" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTestInvalidCredentials -->
+        <test-method signature="loginTestWithoutCredentials()[pri:2, instance:com.parabank.testCases.PB_Login_TestCase@2f67b837]" started-at="2023-06-18T17:26:04 IST" name="loginTestWithoutCredentials" finished-at="2023-06-18T17:26:15 IST" duration-ms="10685" status="FAIL">
           <exception class="org.openqa.selenium.TimeoutException">
             <message>
-              <![CDATA[Expected condition failed: waiting for title to contain "ParaBank | Accounts Overview". Current title: "ParaBank | Error" (tried for 10 second(s) with 500 milliseconds interval)
+              <![CDATA[Expected condition failed: waiting for title to contain "Please enter a username and password.". Current title: "ParaBank | Error" (tried for 10 second(s) with 500 milliseconds interval)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'MASUM', ip: '192.168.0.100', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.134, chrome: {chromedriverVersion: 114.0.5735.16 (7e1ff058633f..., userDataDir: C:\Users\masum\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58111}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 49ce1876be064b7d7d1419ce75121754]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.134, chrome: {chromedriverVersion: 114.0.5735.16 (7e1ff058633f..., userDataDir: C:\Users\masum\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50807}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f8466e85f639dd20cccfe6c1c1bfba2f]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for title to contain "ParaBank | Accounts Overview". Current title: "ParaBank | Error" (tried for 10 second(s) with 500 milliseconds interval)
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for title to contain "Please enter a username and password.". Current title: "ParaBank | Error" (tried for 10 second(s) with 500 milliseconds interval)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'MASUM', ip: '192.168.0.100', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.134, chrome: {chromedriverVersion: 114.0.5735.16 (7e1ff058633f..., userDataDir: C:\Users\masum\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58111}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 49ce1876be064b7d7d1419ce75121754
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.134, chrome: {chromedriverVersion: 114.0.5735.16 (7e1ff058633f..., userDataDir: C:\Users\masum\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50807}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f8466e85f639dd20cccfe6c1c1bfba2f
 at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
 at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
-at com.parabank.testCases.PB_Login_TestCase.loginTest(PB_Login_TestCase.java:30)
+at com.parabank.testCases.PB_Login_TestCase.loginTestWithoutCredentials(PB_Login_TestCase.java:87)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -71,14 +79,14 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.parabank.testCases.PB_Login_TestCase@4716be8b]" started-at="2023-06-18T02:56:43 IST" name="tearDown" finished-at="2023-06-18T02:56:43 IST" duration-ms="182" status="PASS">
+        </test-method> <!-- loginTestWithoutCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.parabank.testCases.PB_Login_TestCase@2f67b837]" started-at="2023-06-18T17:26:15 IST" name="tearDown" finished-at="2023-06-18T17:26:15 IST" duration-ms="194" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.parabank.testCases.PB_Login_TestCase -->
       <class name="com.parabank.testCases.PB_Register_TestCase">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.parabank.testCases.PB_Register_TestCase@8576fa0]" started-at="2023-06-18T02:56:21 IST" name="setup" finished-at="2023-06-18T02:56:26 IST" duration-ms="4918" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.parabank.testCases.PB_Register_TestCase@67545b57]" started-at="2023-06-18T17:25:50 IST" name="setup" finished-at="2023-06-18T17:25:56 IST" duration-ms="5379" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -89,11 +97,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="RegisterTest()[pri:0, instance:com.parabank.testCases.PB_Register_TestCase@8576fa0]" started-at="2023-06-18T02:56:26 IST" name="RegisterTest" finished-at="2023-06-18T02:56:27 IST" duration-ms="1896" status="PASS">
+        <test-method signature="RegisterTest()[pri:0, instance:com.parabank.testCases.PB_Register_TestCase@67545b57]" started-at="2023-06-18T17:25:56 IST" name="RegisterTest" finished-at="2023-06-18T17:25:57 IST" duration-ms="1735" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- RegisterTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.parabank.testCases.PB_Register_TestCase@8576fa0]" started-at="2023-06-18T02:56:27 IST" name="tearDown" finished-at="2023-06-18T02:56:28 IST" duration-ms="128" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.parabank.testCases.PB_Register_TestCase@67545b57]" started-at="2023-06-18T17:25:57 IST" name="tearDown" finished-at="2023-06-18T17:25:58 IST" duration-ms="154" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

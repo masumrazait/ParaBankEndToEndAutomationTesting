@@ -115,5 +115,15 @@ public class ReadConfig {
 	public String getDesboardTitle() {
 		return pro.getProperty("DesboardTitle");
 	}
+	
+	public String getInvalidUser() {
+		String InvalidUser = pro.getProperty("InvalidUser");
+		return InvalidUser;
+	}
+	
+	public String getWrongPassword() {
+		String WrongPassword = pro.getProperty("WrongPassword");
+		return WrongPassword;
+	}
 
 }

@@ -1,4 +1,5 @@
 package com.parabank.testCases;
+
 import java.io.IOException;
 
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -12,33 +13,87 @@ public class PB_Login_TestCase extends BaseClass {
 
 	@Test
 	public void loginTest() throws InterruptedException, IOException {
-		
+
 		logger.info("URL is opened");
-		
+
 		LoginPage lp = new LoginPage(driver);
-		
+
 		lp.setUsername(readconfig.getUsernameID());
 		logger.info("User entered the User Name:");
-		
+
 		lp.setPassword(readconfig.getUserPasswordId());
 		logger.info("User entered the password:");
-		
+
 		lp.clickSubmit();
 		logger.info("User clicked on Login Button");
-				
-		if(driver.getTitle().equals("ParaBank | Accounts Overview"))
-		{
+
+		if (driver.getTitle().equals("ParaBank | Accounts Overview")) {
 			Assert.assertTrue(true);
 			logger.info("Login test passed");
-		}
-		else
-		{
-			captureScreen(driver,"loginTest");
+		} else {
+			captureScreen(driver, "loginTest");
 			Assert.assertTrue(false);
 			logger.info("Login test failed");
 		}
-	
+
+		lp.clickLogOut();
+
+		if (driver.getTitle().equals("ParaBank | Welcome | Online Banking")) {
+			Assert.assertTrue(true);
+			logger.info("User seccessfully logout!");
+		} else {
+			captureScreen(driver, "loginTest");
+			Assert.assertTrue(false);
+			logger.info("User not able to logout!");
+		}
+
 	}
 
-	
+	@Test(priority = 1)
+	public void loginTestInvalidCredentials() throws IOException {
+		logger.info("URL is opened");
+
+		LoginPage lp = new LoginPage(driver);
+		lp.setUsername(readconfig.getInvalidUser());
+		logger.info("Entered Invalid User Id");
+
+		lp.setPassword(readconfig.getWrongPassword());
+		logger.info("Entered Wrong password");
+
+		lp.clickSubmit();
+
+		if (lp.getErrorMessage().equals("An internal error has occurred and has been logged.")) {
+			Assert.assertTrue(true);
+			logger.info("User get error Msg An internal error has occurred and has been logged.");
+		} else {
+			captureScreen(driver, "loginTestInvalidCredentials");
+			Assert.assertTrue(false);
+			logger.info("User donot get any error msg An internal error has occurred and has been logged.");
+		}
+	}
+
+	@Test(priority = 2)
+	public void loginTestWithoutCredentials() throws IOException {
+		logger.info("URL is opened");
+
+		LoginPage lp = new LoginPage(driver);
+		logger.info("User did not entered userId");
+		logger.info("User did not entered password");
+
+		lp.clickSubmit();
+		logger.info("User click on login button.");
+		
+		WebDriverWait wait=new WebDriverWait(driver, 10);
+		wait.until(ExpectedConditions.titleContains(lp.getErrorMessageForEnterIdAndPassword()));
+		
+		if (lp.getErrorMessage().equals("Please enter a username and password.")) {
+			Assert.assertTrue(true);
+			logger.info("User get error Msg!");
+		} else {
+			captureScreen(driver, "loginTestWithoutCredentials");
+			Assert.assertTrue(false);
+			logger.info("User donot get any error msg!");
+		}
+	}
+
 }
