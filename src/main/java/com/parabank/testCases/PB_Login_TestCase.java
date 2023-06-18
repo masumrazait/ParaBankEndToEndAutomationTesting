@@ -40,7 +40,7 @@ public class PB_Login_TestCase extends BaseClass {
 
 		if (driver.getTitle().equals("ParaBank | Welcome | Online Banking")) {
 			Assert.assertTrue(true);
-			logger.info("User seccessfully logout!");
+			logger.info("User successfully logout!");
 		} else {
 			captureScreen(driver, "loginTest");
 			Assert.assertTrue(false);

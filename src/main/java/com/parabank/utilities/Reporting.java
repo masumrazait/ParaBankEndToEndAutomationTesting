@@ -46,14 +46,14 @@ public class Reporting extends TestListenerAdapter implements ITestListener,ISui
 		extent=new ExtentReports();
 		
 		extent.attachReporter(htmlReporter);
-		extent.setSystemInfo("Project","ParaBank");
+		extent.setSystemInfo("Project","Banking System - Para Banking Services");
 		extent.setSystemInfo("Automation Tester","Masum Raza");
 		extent.setSystemInfo("Organization","Mannat Info Technologies Pvt Ltd");
-		extent.setSystemInfo("Host name","Local-Server");
+		extent.setSystemInfo("Host name","Local-Server-Tesing-Environment");
 		
 		
-		htmlReporter.config().setDocumentTitle("ParaBank Test Project"); // Tile of report
-		htmlReporter.config().setReportName("Functional Test Automation Report"); // name of the report
+		htmlReporter.config().setDocumentTitle("ParaBankingSystem Test Project"); // Tile of report
+		htmlReporter.config().setReportName("Functional-UI Test Automation Report"); // name of the report
 		htmlReporter.config().setEncoding("utf-8");
 		htmlReporter.config().setTheme(Theme.STANDARD);
 	}
