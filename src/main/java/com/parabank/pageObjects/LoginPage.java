@@ -34,11 +34,11 @@ public class LoginPage {
 	@FindBy(xpath = "//p[contains(text(), 'An internal error has occurred and has been logged.')]")
 	@CacheLookup
 	WebElement InvalidCredentialErrorMsg;
-
+/*
 	@FindBy(xpath = "//p[contains(text(), 'Please enter a username and password.')]")
 	@CacheLookup
 	WebElement errorMessageForCredential;
-
+*/
 	public void setUsername(String uname) {
 		txtUserName.sendKeys(uname);
 	}
@@ -58,9 +58,9 @@ public class LoginPage {
 	public void clickLogOut() {
 		logoutLink.click();
 	}
-
+/*
 	public String getErrorMessageForEnterIdAndPassword() {
 		return errorMessageForCredential.getText();
-	}
+	}*/
 
 }

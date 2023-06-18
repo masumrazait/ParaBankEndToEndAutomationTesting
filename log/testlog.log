@@ -1,56 +1,102 @@
-2023-06-18 17:40:01,554 - ParaBanking -INFO - URL is opened
-2023-06-18 17:40:04,139 - ParaBanking -INFO - User clicked on register Link
-2023-06-18 17:40:04,226 - ParaBanking -INFO - User Entered the First Name.
-2023-06-18 17:40:04,296 - ParaBanking -INFO - User Entered the Last Name.
-2023-06-18 17:40:04,361 - ParaBanking -INFO - User Entered the Address.
-2023-06-18 17:40:04,432 - ParaBanking -INFO - User Entered the City.
-2023-06-18 17:40:04,513 - ParaBanking -INFO - User Entered the State.
-2023-06-18 17:40:04,577 - ParaBanking -INFO - User Entered the ZipCode.
-2023-06-18 17:40:04,642 - ParaBanking -INFO - User Entered the PhoneNumber.
-2023-06-18 17:40:04,699 - ParaBanking -INFO - User Entered the Ssn.
-2023-06-18 17:40:04,760 - ParaBanking -INFO - User Entered the Username.
-2023-06-18 17:40:04,817 - ParaBanking -INFO - User Entered the Password.
-2023-06-18 17:40:04,872 - ParaBanking -INFO - User Entered the RepeatedPassword.
-2023-06-18 17:40:05,433 - ParaBanking -INFO - Account created Successfully! Customer landed to Para Bank Deshboard
-2023-06-18 17:40:08,607 - ParaBanking -INFO - URL is opened
-2023-06-18 17:40:08,674 - ParaBanking -INFO - User entered the User Name:
-2023-06-18 17:40:08,736 - ParaBanking -INFO - User entered the password:
-2023-06-18 17:40:10,661 - ParaBanking -INFO - User clicked on Login Button
-2023-06-18 17:40:10,666 - ParaBanking -INFO - Login test passed
-2023-06-18 17:40:11,542 - ParaBanking -INFO - User seccessfully logout!
-2023-06-18 17:40:11,547 - ParaBanking -INFO - URL is opened
-2023-06-18 17:40:11,606 - ParaBanking -INFO - Entered Invalid User Id
-2023-06-18 17:40:11,651 - ParaBanking -INFO - Entered Wrong password
-2023-06-18 17:40:12,070 - ParaBanking -INFO - User get error Msg An internal error has occurred and has been logged.
-2023-06-18 17:40:12,074 - ParaBanking -INFO - URL is opened
-2023-06-18 17:40:12,074 - ParaBanking -INFO - User did not entered userId
-2023-06-18 17:40:12,074 - ParaBanking -INFO - User did not entered password
-2023-06-18 17:40:12,466 - ParaBanking -INFO - User click on login button.
-2023-06-18 17:43:56,598 - ParaBanking -INFO - URL is opened
-2023-06-18 17:43:57,773 - ParaBanking -INFO - User clicked on register Link
-2023-06-18 17:43:57,850 - ParaBanking -INFO - User Entered the First Name.
-2023-06-18 17:43:57,901 - ParaBanking -INFO - User Entered the Last Name.
-2023-06-18 17:43:57,957 - ParaBanking -INFO - User Entered the Address.
-2023-06-18 17:43:58,014 - ParaBanking -INFO - User Entered the City.
-2023-06-18 17:43:58,076 - ParaBanking -INFO - User Entered the State.
-2023-06-18 17:43:58,127 - ParaBanking -INFO - User Entered the ZipCode.
-2023-06-18 17:43:58,191 - ParaBanking -INFO - User Entered the PhoneNumber.
-2023-06-18 17:43:58,241 - ParaBanking -INFO - User Entered the Ssn.
-2023-06-18 17:43:58,294 - ParaBanking -INFO - User Entered the Username.
-2023-06-18 17:43:58,345 - ParaBanking -INFO - User Entered the Password.
-2023-06-18 17:43:58,393 - ParaBanking -INFO - User Entered the RepeatedPassword.
-2023-06-18 17:43:59,022 - ParaBanking -INFO - Account created Successfully! Customer landed to Para Bank Deshboard
-2023-06-18 17:44:02,577 - ParaBanking -INFO - URL is opened
-2023-06-18 17:44:02,652 - ParaBanking -INFO - User entered the User Name:
-2023-06-18 17:44:02,724 - ParaBanking -INFO - User entered the password:
-2023-06-18 17:44:04,043 - ParaBanking -INFO - User clicked on Login Button
-2023-06-18 17:44:04,050 - ParaBanking -INFO - Login test passed
-2023-06-18 17:44:05,044 - ParaBanking -INFO - User successfully logout!
-2023-06-18 17:44:05,051 - ParaBanking -INFO - URL is opened
-2023-06-18 17:44:05,087 - ParaBanking -INFO - Entered Invalid User Id
-2023-06-18 17:44:05,137 - ParaBanking -INFO - Entered Wrong password
-2023-06-18 17:44:05,596 - ParaBanking -INFO - User get error Msg An internal error has occurred and has been logged.
-2023-06-18 17:44:05,600 - ParaBanking -INFO - URL is opened
-2023-06-18 17:44:05,601 - ParaBanking -INFO - User did not entered userId
-2023-06-18 17:44:05,601 - ParaBanking -INFO - User did not entered password
-2023-06-18 17:44:05,997 - ParaBanking -INFO - User click on login button.
+2023-06-18 21:51:21,163 - ParaBanking -INFO - URL is opened
+2023-06-18 21:51:22,007 - ParaBanking -INFO - User clicked on register Link
+2023-06-18 21:51:22,119 - ParaBanking -INFO - User Entered the First Name.
+2023-06-18 21:51:22,196 - ParaBanking -INFO - User Entered the Last Name.
+2023-06-18 21:51:22,277 - ParaBanking -INFO - User Entered the Address.
+2023-06-18 21:51:22,369 - ParaBanking -INFO - User Entered the City.
+2023-06-18 21:51:22,449 - ParaBanking -INFO - User Entered the State.
+2023-06-18 21:51:22,539 - ParaBanking -INFO - User Entered the ZipCode.
+2023-06-18 21:51:22,634 - ParaBanking -INFO - User Entered the PhoneNumber.
+2023-06-18 21:51:22,715 - ParaBanking -INFO - User Entered the Ssn.
+2023-06-18 21:51:22,796 - ParaBanking -INFO - User Entered the Username.
+2023-06-18 21:51:22,875 - ParaBanking -INFO - User Entered the Password.
+2023-06-18 21:51:22,941 - ParaBanking -INFO - User Entered the RepeatedPassword.
+2023-06-18 21:51:23,841 - ParaBanking -INFO - Account created Successfully! Customer landed to Para Bank Deshboard
+2023-06-18 21:51:34,475 - ParaBanking -INFO - URL is opened
+2023-06-18 21:51:34,550 - ParaBanking -INFO - User entered the User Name:
+2023-06-18 21:51:34,644 - ParaBanking -INFO - User entered the password:
+2023-06-18 21:51:38,083 - ParaBanking -INFO - User clicked on Login Button
+2023-06-18 21:51:40,261 - ParaBanking -INFO - URL is opened
+2023-06-18 21:51:40,313 - ParaBanking -INFO - Entered Invalid User Id
+2023-06-18 21:51:40,389 - ParaBanking -INFO - Entered Wrong password
+2023-06-18 21:51:45,679 - ParaBanking -INFO - User get error Msg An internal error has occurred and has been logged.
+2023-06-18 21:51:45,683 - ParaBanking -INFO - URL is opened
+2023-06-18 21:51:45,684 - ParaBanking -INFO - User did not entered userId
+2023-06-18 21:51:45,684 - ParaBanking -INFO - User did not entered password
+2023-06-18 21:51:45,684 - ParaBanking -INFO - User click on login button.
+2023-06-18 21:55:25,581 - ParaBanking -INFO - URL is opened
+2023-06-18 21:55:26,274 - ParaBanking -INFO - User clicked on register Link
+2023-06-18 21:55:26,395 - ParaBanking -INFO - User Entered the First Name.
+2023-06-18 21:55:26,476 - ParaBanking -INFO - User Entered the Last Name.
+2023-06-18 21:55:26,546 - ParaBanking -INFO - User Entered the Address.
+2023-06-18 21:55:26,607 - ParaBanking -INFO - User Entered the City.
+2023-06-18 21:55:26,664 - ParaBanking -INFO - User Entered the State.
+2023-06-18 21:55:26,734 - ParaBanking -INFO - User Entered the ZipCode.
+2023-06-18 21:55:26,825 - ParaBanking -INFO - User Entered the PhoneNumber.
+2023-06-18 21:55:26,885 - ParaBanking -INFO - User Entered the Ssn.
+2023-06-18 21:55:26,951 - ParaBanking -INFO - User Entered the Username.
+2023-06-18 21:55:27,011 - ParaBanking -INFO - User Entered the Password.
+2023-06-18 21:55:27,089 - ParaBanking -INFO - User Entered the RepeatedPassword.
+2023-06-18 21:55:27,679 - ParaBanking -INFO - Account created Successfully! Customer landed to Para Bank Deshboard
+2023-06-18 21:55:35,266 - ParaBanking -INFO - URL is opened
+2023-06-18 21:55:35,362 - ParaBanking -INFO - User entered the User Name:
+2023-06-18 21:55:35,433 - ParaBanking -INFO - User entered the password:
+2023-06-18 21:55:38,941 - ParaBanking -INFO - User clicked on Login Button
+2023-06-18 21:55:41,137 - ParaBanking -INFO - URL is opened
+2023-06-18 21:55:41,228 - ParaBanking -INFO - Entered Invalid User Id
+2023-06-18 21:55:41,353 - ParaBanking -INFO - Entered Wrong password
+2023-06-18 21:55:42,280 - ParaBanking -INFO - User get error Msg An internal error has occurred and has been logged.
+2023-06-18 21:55:42,285 - ParaBanking -INFO - URL is opened
+2023-06-18 21:55:42,285 - ParaBanking -INFO - User did not entered userId
+2023-06-18 21:55:42,285 - ParaBanking -INFO - User did not entered password
+2023-06-18 21:55:42,285 - ParaBanking -INFO - User click on login button.
+2023-06-18 21:57:57,196 - ParaBanking -INFO - URL is opened
+2023-06-18 21:57:59,081 - ParaBanking -INFO - User clicked on register Link
+2023-06-18 21:57:59,276 - ParaBanking -INFO - User Entered the First Name.
+2023-06-18 21:57:59,445 - ParaBanking -INFO - User Entered the Last Name.
+2023-06-18 21:57:59,554 - ParaBanking -INFO - User Entered the Address.
+2023-06-18 21:57:59,701 - ParaBanking -INFO - User Entered the City.
+2023-06-18 21:58:00,269 - ParaBanking -INFO - User Entered the State.
+2023-06-18 21:58:00,436 - ParaBanking -INFO - User Entered the ZipCode.
+2023-06-18 21:58:00,581 - ParaBanking -INFO - User Entered the PhoneNumber.
+2023-06-18 21:58:00,711 - ParaBanking -INFO - User Entered the Ssn.
+2023-06-18 21:58:00,785 - ParaBanking -INFO - User Entered the Username.
+2023-06-18 21:58:00,901 - ParaBanking -INFO - User Entered the Password.
+2023-06-18 21:58:00,985 - ParaBanking -INFO - User Entered the RepeatedPassword.
+2023-06-18 22:01:39,253 - ParaBanking -INFO - URL is opened
+2023-06-18 22:01:42,744 - ParaBanking -INFO - User clicked on register Link
+2023-06-18 22:01:42,837 - ParaBanking -INFO - User Entered the First Name.
+2023-06-18 22:01:42,910 - ParaBanking -INFO - User Entered the Last Name.
+2023-06-18 22:01:42,970 - ParaBanking -INFO - User Entered the Address.
+2023-06-18 22:01:43,029 - ParaBanking -INFO - User Entered the City.
+2023-06-18 22:01:43,093 - ParaBanking -INFO - User Entered the State.
+2023-06-18 22:01:43,147 - ParaBanking -INFO - User Entered the ZipCode.
+2023-06-18 22:01:43,215 - ParaBanking -INFO - User Entered the PhoneNumber.
+2023-06-18 22:01:43,276 - ParaBanking -INFO - User Entered the Ssn.
+2023-06-18 22:01:43,346 - ParaBanking -INFO - User Entered the Username.
+2023-06-18 22:01:43,419 - ParaBanking -INFO - User Entered the Password.
+2023-06-18 22:01:43,485 - ParaBanking -INFO - User Entered the RepeatedPassword.
+2023-06-18 22:01:59,990 - ParaBanking -INFO - URL is opened
+2023-06-18 22:02:00,079 - ParaBanking -INFO - User entered the User Name:
+2023-06-18 22:02:00,165 - ParaBanking -INFO - User entered the password:
+2023-06-18 22:02:04,942 - ParaBanking -INFO - User clicked on Login Button
+2023-06-18 22:02:07,194 - ParaBanking -INFO - URL is opened
+2023-06-18 22:02:07,280 - ParaBanking -INFO - Entered Invalid User Id
+2023-06-18 22:02:07,350 - ParaBanking -INFO - Entered Wrong password
+2023-06-18 22:02:09,070 - ParaBanking -INFO - User get error Msg An internal error has occurred and has been logged.
+2023-06-18 22:02:09,078 - ParaBanking -INFO - URL is opened
+2023-06-18 22:02:09,079 - ParaBanking -INFO - User did not entered userId
+2023-06-18 22:02:09,079 - ParaBanking -INFO - User did not entered password
+2023-06-18 22:02:09,080 - ParaBanking -INFO - User click on login button.
+2023-06-18 22:03:08,741 - ParaBanking -INFO - URL is opened
+2023-06-18 22:03:08,815 - ParaBanking -INFO - User entered the User Name:
+2023-06-18 22:03:08,892 - ParaBanking -INFO - User entered the password:
+2023-06-18 22:03:12,119 - ParaBanking -INFO - User clicked on Login Button
+2023-06-18 22:03:14,338 - ParaBanking -INFO - URL is opened
+2023-06-18 22:03:14,410 - ParaBanking -INFO - Entered Invalid User Id
+2023-06-18 22:03:14,519 - ParaBanking -INFO - Entered Wrong password
+2023-06-18 22:03:16,097 - ParaBanking -INFO - User get error Msg An internal error has occurred and has been logged.
+2023-06-18 22:03:16,107 - ParaBanking -INFO - URL is opened
+2023-06-18 22:03:16,110 - ParaBanking -INFO - User did not entered userId
+2023-06-18 22:03:16,110 - ParaBanking -INFO - User did not entered password
+2023-06-18 22:03:16,110 - ParaBanking -INFO - User click on login button.
