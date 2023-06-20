@@ -22,8 +22,6 @@ public class TransferFundsPage {
 	@CacheLookup
 	WebElement TransferBtn;
 	
-	
-	
 	//Action Method 
 	public void clickOnTransferFunds() {
 		TransferFunds.click();

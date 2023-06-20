@@ -53,19 +53,16 @@ public class PB_TransferFunds_TestCase extends BaseClass {
 		logger.info(AccountTypeName);
 		*/
 		tF.clickOnTransferSubmitBtn();
-		logger.info("User Clicked on Transfer Menu!");
+		logger.info("User Clicked on The amount cannot be empty. Menu!");
 		Thread.sleep(3000);
 		
-		if (driver.getPageSource().contains("Congratulations, your account is now open.")) {
+		if (driver.getPageSource().contains("The amount cannot be empty.")) {
 			Assert.assertTrue(true);
-			captureScreen(driver, "TransferFundsTest");
-			Assert.assertFalse(false);
-			
-			logger.info("account is now open test passed");
+			logger.info("The amount cannot be empty. test passed");
 		} else {
 			captureScreen(driver, "TransferFundsTest");
 			Assert.assertTrue(false);
-			logger.info("account is now open test failed");
+			logger.info("Funds is Tranfer test failed");
 		}
 
 	}
