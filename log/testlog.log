@@ -515,3 +515,68 @@
 2023-06-21 02:15:00,493 - ParaBanking -INFO - User choose from account number#
 2023-06-21 02:15:00,621 - ParaBanking -INFO - User choose to account number#
 2023-06-21 02:15:00,674 - ParaBanking -INFO - User Clicked on The amount cannot be empty. Menu!
+2023-06-21 05:13:42,349 - ParaBanking -INFO - URL is opened
+2023-06-21 05:13:43,985 - ParaBanking -INFO - User clicked on register Link
+2023-06-21 05:13:44,052 - ParaBanking -INFO - User Entered the First Name.
+2023-06-21 05:13:44,102 - ParaBanking -INFO - User Entered the Last Name.
+2023-06-21 05:13:44,150 - ParaBanking -INFO - User Entered the Address.
+2023-06-21 05:13:44,203 - ParaBanking -INFO - User Entered the City.
+2023-06-21 05:13:44,254 - ParaBanking -INFO - User Entered the State.
+2023-06-21 05:13:44,303 - ParaBanking -INFO - User Entered the ZipCode.
+2023-06-21 05:13:44,356 - ParaBanking -INFO - User Entered the PhoneNumber.
+2023-06-21 05:13:44,410 - ParaBanking -INFO - User Entered the Ssn.
+2023-06-21 05:13:44,467 - ParaBanking -INFO - User Entered the Username.
+2023-06-21 05:13:44,517 - ParaBanking -INFO - User Entered the Password.
+2023-06-21 05:13:44,565 - ParaBanking -INFO - User Entered the RepeatedPassword.
+2023-06-21 05:13:45,527 - ParaBanking -INFO - Account created Successfully! Customer landed to Para Bank Deshboard
+2023-06-21 05:13:49,263 - ParaBanking -INFO - URL is opened
+2023-06-21 05:13:49,322 - ParaBanking -INFO - User entered the User Name:
+2023-06-21 05:13:49,384 - ParaBanking -INFO - User entered the password:
+2023-06-21 05:13:52,515 - ParaBanking -INFO - User clicked on Login Button
+2023-06-21 05:13:54,530 - ParaBanking -INFO - Login test passed
+2023-06-21 05:13:55,318 - ParaBanking -INFO - User successfully logout!
+2023-06-21 05:13:55,326 - ParaBanking -INFO - URL is opened
+2023-06-21 05:13:55,356 - ParaBanking -INFO - Entered Invalid User Id
+2023-06-21 05:13:55,397 - ParaBanking -INFO - Entered Wrong password
+2023-06-21 05:13:55,904 - ParaBanking -INFO - User get error Msg An internal error has occurred and has been logged.
+2023-06-21 05:13:55,910 - ParaBanking -INFO - URL is opened
+2023-06-21 05:13:55,911 - ParaBanking -INFO - User did not entered userId
+2023-06-21 05:13:55,911 - ParaBanking -INFO - User did not entered password
+2023-06-21 05:13:55,911 - ParaBanking -INFO - User click on login button.
+2023-06-21 05:14:04,056 - ParaBanking -INFO - URL is opened
+2023-06-21 05:14:04,128 - ParaBanking -INFO - User entered the User Name:
+2023-06-21 05:14:04,192 - ParaBanking -INFO - User entered the password:
+2023-06-21 05:14:07,456 - ParaBanking -INFO - User clicked on Login Button
+2023-06-21 05:14:09,471 - ParaBanking -INFO - Login test passed
+2023-06-21 05:14:09,815 - ParaBanking -INFO - user clicked on Open New Account
+2023-06-21 05:14:20,051 - ParaBanking -INFO - SAVINGS
+2023-06-21 05:14:20,111 - ParaBanking -INFO - User Open New Account Successfully!
+2023-06-21 05:14:23,132 - ParaBanking -INFO - account is now open test passed
+2023-06-21 05:14:25,462 - ParaBanking -INFO - URL is opened
+2023-06-21 05:14:25,528 - ParaBanking -INFO - User entered the User Name:
+2023-06-21 05:14:25,593 - ParaBanking -INFO - User entered the password:
+2023-06-21 05:14:28,365 - ParaBanking -INFO - User clicked on Login Button
+2023-06-21 05:14:30,388 - ParaBanking -INFO - Login test passed
+2023-06-21 05:14:30,725 - ParaBanking -INFO - user clicked on Transfer Funds Menu for Transfer money! 
+2023-06-21 05:14:33,780 - ParaBanking -INFO - User Submited the Transfer !
+2023-06-21 05:14:36,795 - ParaBanking -INFO - The amount cannot be empty. test passed!
+2023-06-21 05:14:36,801 - ParaBanking -INFO - URL is opened
+2023-06-21 05:14:37,114 - ParaBanking -INFO - user clicked on Transfer Funds Menu for Transfer money! 
+2023-06-21 05:14:40,186 - ParaBanking -INFO - user entered the Amount for transfer funds!
+2023-06-21 05:14:40,319 - ParaBanking -INFO - User choose from account number#
+2023-06-21 05:14:40,434 - ParaBanking -INFO - User choose to account number#
+2023-06-21 05:14:40,480 - ParaBanking -INFO - User Clicked on The amount cannot be empty. Menu!
+2023-06-21 05:14:44,799 - ParaBanking -INFO - URL is opened
+2023-06-21 05:14:44,874 - ParaBanking -INFO - User entered the User Name:
+2023-06-21 05:14:44,948 - ParaBanking -INFO - User entered the password:
+2023-06-21 05:14:47,848 - ParaBanking -INFO - User clicked on Login Button
+2023-06-21 05:14:49,861 - ParaBanking -INFO - Login test passed
+2023-06-21 05:14:50,221 - ParaBanking -INFO - user clicked on Transfer Funds Menu for Transfer money! 
+2023-06-21 05:14:53,269 - ParaBanking -INFO - User Submited the Transfer !
+2023-06-21 05:14:56,288 - ParaBanking -INFO - The amount cannot be empty. test passed!
+2023-06-21 05:14:56,298 - ParaBanking -INFO - URL is opened
+2023-06-21 05:14:56,746 - ParaBanking -INFO - user clicked on Transfer Funds Menu for Transfer money! 
+2023-06-21 05:14:59,827 - ParaBanking -INFO - user entered the Amount for transfer funds!
+2023-06-21 05:14:59,962 - ParaBanking -INFO - User choose from account number#
+2023-06-21 05:15:00,111 - ParaBanking -INFO - User choose to account number#
+2023-06-21 05:15:00,165 - ParaBanking -INFO - User Clicked on The amount cannot be empty. Menu!
