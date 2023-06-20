@@ -9,9 +9,10 @@
   <test name="ParaBanking Test">
   <parameter name="browser" value="chrome" />
     <classes>
-    <!-- <class name="com.parabank.testCases.PB_Register_TestCase"/> -->
+    <class name="com.parabank.testCases.PB_Register_TestCase"/>
       <class name="com.parabank.testCases.PB_Login_TestCase"/>
       <class name="com.parabank.testCases.PB_OpenNewAccount_TestCase"/>
+      <class name="com.parabank.testCases.PB_TransferFunds_TestCase"/>
     </classes>
   </test> <!-- ParaBanking Test -->
 </suite> <!-- ParaBankingSuite -->

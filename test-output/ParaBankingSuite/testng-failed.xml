@@ -14,6 +14,20 @@
           <include name="tearDown"/>
         </methods>
       </class> <!-- com.parabank.testCases.PB_OpenNewAccount_TestCase -->
+      <class name="com.parabank.testCases.PB_Login_TestCase">
+        <methods>
+          <include name="loginTest"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.parabank.testCases.PB_Login_TestCase -->
+      <class name="com.parabank.testCases.PB_TransferFunds_TestCase">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="TransferFundsTest"/>
+        </methods>
+      </class> <!-- com.parabank.testCases.PB_TransferFunds_TestCase -->
     </classes>
   </test> <!-- ParaBanking Test(failed) -->
 </suite> <!-- Failed suite [ParaBankingSuite] -->
