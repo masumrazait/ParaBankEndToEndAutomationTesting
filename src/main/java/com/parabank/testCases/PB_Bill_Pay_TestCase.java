@@ -80,7 +80,9 @@ public class PB_Bill_Pay_TestCase extends BaseClass {
 
 		tF.clickOnTransferSubmitBtn();
 		logger.info("User Clicked on The amount cannot be empty. Menu!");
-
+		
+		Thread.sleep(3000);
+		
 		if (driver.getPageSource().contains("Transfer Complete!")) {
 			Assert.assertTrue(true);
 			logger.info("Transfer Complete! test passed");
