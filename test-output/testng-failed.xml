@@ -7,13 +7,13 @@
   <test thread-count="5" name="ParaBanking Test(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="com.parabank.testCases.PB_Login_TestCase">
+      <class name="com.parabank.testCases.PB_OpenNewAccount_TestCase">
         <methods>
           <include name="setup"/>
+          <include name="OpenNewAccountTest"/>
           <include name="tearDown"/>
-          <include name="loginTestInvalidCredentials"/>
         </methods>
-      </class> <!-- com.parabank.testCases.PB_Login_TestCase -->
+      </class> <!-- com.parabank.testCases.PB_OpenNewAccount_TestCase -->
     </classes>
   </test> <!-- ParaBanking Test(failed) -->
 </suite> <!-- Failed suite [ParaBankingSuite] -->

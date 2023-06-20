@@ -2,8 +2,6 @@ package com.parabank.testCases;
 
 import java.io.IOException;
 
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -62,7 +60,6 @@ public class PB_Login_TestCase extends BaseClass {
 		logger.info("Entered Wrong password");
 
 		lp.clickSubmit();
-		
 
 		if (lp.getErrorMessage().equals("An internal error has occurred and has been logged.")) {
 			Assert.assertTrue(true);
@@ -82,22 +79,20 @@ public class PB_Login_TestCase extends BaseClass {
 		logger.info("User did not entered userId");
 		logger.info("User did not entered password");
 
-		//lp.clickSubmit();
+		// lp.clickSubmit();
 		logger.info("User click on login button.");
-		
+
 		Thread.sleep(5000);
 		/*
-		WebDriverWait wait=new WebDriverWait(driver, 10);
-		wait.until(ExpectedConditions.titleContains(lp.getErrorMessageForEnterIdAndPassword()));
-		
-		if (lp.getErrorMessage().equals("Please enter a username and password.")) {
-			Assert.assertTrue(true);
-			logger.info("User get error Msg!");
-		} else {
-			captureScreen(driver, "loginTestWithoutCredentials");
-			Assert.assertTrue(false);
-			logger.info("User donot get any error msg!");
-		}*/
+		 * WebDriverWait wait=new WebDriverWait(driver, 10);
+		 * wait.until(ExpectedConditions.titleContains(lp.
+		 * getErrorMessageForEnterIdAndPassword()));
+		 * 
+		 * if (lp.getErrorMessage().equals("Please enter a username and password.")) {
+		 * Assert.assertTrue(true); logger.info("User get error Msg!"); } else {
+		 * captureScreen(driver, "loginTestWithoutCredentials");
+		 * Assert.assertTrue(false); logger.info("User donot get any error msg!"); }
+		 */
 	}
 
 }

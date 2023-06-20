@@ -11,6 +11,7 @@
     <classes>
     <!-- <class name="com.parabank.testCases.PB_Register_TestCase"/> -->
       <class name="com.parabank.testCases.PB_Login_TestCase"/>
+      <class name="com.parabank.testCases.PB_OpenNewAccount_TestCase"/>
     </classes>
   </test> <!-- ParaBanking Test -->
 </suite> <!-- ParaBankingSuite -->

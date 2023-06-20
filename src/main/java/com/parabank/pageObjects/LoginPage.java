@@ -27,6 +27,10 @@ public class LoginPage {
 	@CacheLookup
 	WebElement btnLogin;
 
+	@FindBy(xpath = "//p[@class='smallText']")
+	@CacheLookup
+	WebElement UsresNameOnDeskBoard;
+
 	@FindBy(xpath = "//a[contains(text(), 'Log Out')]")
 	@CacheLookup
 	WebElement logoutLink;
@@ -34,11 +38,11 @@ public class LoginPage {
 	@FindBy(xpath = "//p[contains(text(), 'An internal error has occurred and has been logged.')]")
 	@CacheLookup
 	WebElement InvalidCredentialErrorMsg;
-/*
+
 	@FindBy(xpath = "//p[contains(text(), 'Please enter a username and password.')]")
 	@CacheLookup
 	WebElement errorMessageForCredential;
-*/
+
 	public void setUsername(String uname) {
 		txtUserName.sendKeys(uname);
 	}
@@ -55,12 +59,16 @@ public class LoginPage {
 		btnLogin.click();
 	}
 
+	public String getUserNameDeskBoard() {
+		return UsresNameOnDeskBoard.getText();
+	}
+
 	public void clickLogOut() {
 		logoutLink.click();
 	}
-/*
+
 	public String getErrorMessageForEnterIdAndPassword() {
 		return errorMessageForCredential.getText();
-	}*/
+	}
 
 }

@@ -38,7 +38,7 @@ public class BaseClass {
 		
 		if(br.equals("chrome")) 
 		{
-			System.setProperty("webdriver.chrome.driver",readconfig.getChromePath());
+			System.setProperty("webdriver.chrome.driver","./Drivers/chromedriver.exe");
 			driver=new ChromeDriver();
 		}
 		else if(br.equals("firefox"))
