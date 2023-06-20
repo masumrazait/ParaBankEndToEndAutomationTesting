@@ -125,5 +125,11 @@ public class ReadConfig {
 		String WrongPassword = pro.getProperty("WrongPassword");
 		return WrongPassword;
 	}
+	
+	//Transfer Funds
+	public String getAmount() {
+		String Amount = pro.getProperty("Amount");
+		return Amount;
+	}
 
 }

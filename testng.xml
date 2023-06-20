@@ -13,6 +13,7 @@
       <class name="com.parabank.testCases.PB_Login_TestCase"/>
       <class name="com.parabank.testCases.PB_OpenNewAccount_TestCase"/>
       <class name="com.parabank.testCases.PB_TransferFunds_TestCase"/>
+      <class name="com.parabank.testCases.PB_Bill_Pay_TestCase"/>
     </classes>
   </test> <!-- ParaBanking Test -->
 </suite> <!-- ParaBankingSuite -->

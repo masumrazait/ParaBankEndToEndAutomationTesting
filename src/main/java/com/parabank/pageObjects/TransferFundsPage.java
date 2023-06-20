@@ -8,26 +8,53 @@ import org.openqa.selenium.support.PageFactory;
 
 public class TransferFundsPage {
 	WebDriver ldriver;
-	
-	public TransferFundsPage(WebDriver rdriver){
-		ldriver=rdriver;
+
+	public TransferFundsPage(WebDriver rdriver) {
+		ldriver = rdriver;
 		PageFactory.initElements(rdriver, this);
 	}
-	
-	@FindBy(partialLinkText="Transfer Funds")
+
+	@FindBy(partialLinkText = "Transfer Funds")
 	@CacheLookup
 	WebElement TransferFunds;
-	
-	@FindBy(xpath ="//input[@value='Transfer']")
+
+	@FindBy(xpath = "//input[@value='Transfer']")
 	@CacheLookup
 	WebElement TransferBtn;
-	
-	//Action Method 
+
+	@FindBy(id = "amount")
+	@CacheLookup
+	WebElement txtAmount;
+
+	@FindBy(id = "fromAccountId")
+	@CacheLookup
+	WebElement SelectFromAccnt;
+
+	@FindBy(id = "toAccountId")
+	@CacheLookup
+	WebElement SelectToAccnt;
+
+	// Action Method
 	public void clickOnTransferFunds() {
 		TransferFunds.click();
 	}
-	
+
+	public void setAmount(String Amount) {
+		txtAmount.sendKeys(Amount);
+	}
+
+	public WebElement selectFromAccount() {
+		SelectFromAccnt.click();
+		return SelectFromAccnt;
+	}
+
+	public WebElement selectToAccount() {
+		SelectToAccnt.click();
+		return SelectToAccnt;
+	}
+
 	public void clickOnTransferSubmitBtn() {
 		TransferBtn.click();
 	}
+
 }

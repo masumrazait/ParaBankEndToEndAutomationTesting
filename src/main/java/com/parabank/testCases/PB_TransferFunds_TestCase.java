@@ -2,19 +2,17 @@ package com.parabank.testCases;
 
 import java.io.IOException;
 
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import com.parabank.pageObjects.LoginPage;
-import com.parabank.pageObjects.OpenNewAccountPage;
 import com.parabank.pageObjects.TransferFundsPage;
 
 public class PB_TransferFunds_TestCase extends BaseClass {
 
-	@Test
-	public void TransferFundsTest() throws InterruptedException, IOException {
+	@Test(priority = 1)
+	public void TransferFundsWithoutAmountTest() throws InterruptedException, IOException {
 
 		logger.info("URL is opened");
 		LoginPage lp = new LoginPage(driver);
@@ -35,34 +33,61 @@ public class PB_TransferFunds_TestCase extends BaseClass {
 			Assert.assertTrue(true);
 			logger.info("Login test passed");
 		} else {
-			captureScreen(driver, "TransferFundsTest");
+			captureScreen(driver, "TransferFundsWithoutAmountTest");
 			Assert.assertTrue(false);
 			logger.info("Login test failed");
 		}
 
 		tF.clickOnTransferFunds();
-		//logger.info("user clicked on Open New Account");
-		Thread.sleep(10000);
-		//driver.getPageSource().contains("Open New Account");
-
-		/*
-		String AccountTypeName = "SAVINGS";
-		Select AccontTypes = new Select(newAcct.selectAccountTypes());
-		AccontTypes.selectByVisibleText(AccountTypeName);
-		AccontTypes.selectByIndex(1);
-		logger.info(AccountTypeName);
-		*/
-		tF.clickOnTransferSubmitBtn();
-		logger.info("User Clicked on The amount cannot be empty. Menu!");
+		logger.info("user clicked on Transfer Funds Menu for Transfer money! ");
 		Thread.sleep(3000);
-		
+
+		tF.clickOnTransferSubmitBtn();
+		logger.info("User Submited the Transfer !");
+		Thread.sleep(3000);
+
 		if (driver.getPageSource().contains("The amount cannot be empty.")) {
 			Assert.assertTrue(true);
-			logger.info("The amount cannot be empty. test passed");
+			logger.info("The amount cannot be empty. test passed!");
 		} else {
-			captureScreen(driver, "TransferFundsTest");
+			captureScreen(driver, "TransferFundsWithoutAmountTest");
 			Assert.assertTrue(false);
 			logger.info("Funds is Tranfer test failed");
+		}
+
+	}
+
+	@Test(priority = 2)
+	public void TransferFundsWithValidDetailsTest() throws InterruptedException, IOException {
+
+		logger.info("URL is opened");
+		TransferFundsPage tF = new TransferFundsPage(driver);
+
+		tF.clickOnTransferFunds();
+		logger.info("user clicked on Transfer Funds Menu for Transfer money! ");
+		Thread.sleep(3000);
+
+		tF.setAmount(readconfig.getAmount());
+		logger.info("user entered the Amount for transfer funds!");
+
+		Select FromAccount = new Select(tF.selectFromAccount());
+		FromAccount.selectByIndex(1);
+		logger.info("User choose from account number#");
+
+		Select ToAccount = new Select(tF.selectToAccount());
+		ToAccount.selectByIndex(1);
+		logger.info("User choose to account number#");
+
+		tF.clickOnTransferSubmitBtn();
+		logger.info("User Clicked on The amount cannot be empty. Menu!");
+
+		if (driver.getPageSource().contains("Transfer Complete!")) {
+			Assert.assertTrue(true);
+			logger.info("Transfer Complete! test passed");
+		} else {
+			captureScreen(driver, "TransferFundsWithValidDetailsTest");
+			Assert.assertTrue(false);
+			logger.info("Transfer not Complete! test failed");
 		}
 
 	}
