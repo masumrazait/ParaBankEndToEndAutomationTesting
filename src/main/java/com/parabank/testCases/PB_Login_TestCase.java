@@ -49,24 +49,25 @@ public class PB_Login_TestCase extends BaseClass {
 	}
 
 	@Test(priority = 1)
-	public void loginTestInvalidCredentials() throws IOException {
+	public void loginTestInvalidCredentials() throws IOException, InterruptedException {
 		logger.info("URL is opened");
 
 		LoginPage lp = new LoginPage(driver);
 		lp.setUsername(readconfig.getInvalidUser());
 		logger.info("Entered Invalid User Id");
-
+		Thread.sleep(3000);
 		lp.setPassword(readconfig.getWrongPassword());
 		logger.info("Entered Wrong password");
 
 		lp.clickSubmit();
-
+		Thread.sleep(3000);
+		
 		if (lp.getErrorMessage().equals("An internal error has occurred and has been logged.")) {
-			Assert.assertTrue(true);
+			Assert.assertTrue(false);
 			logger.info("User get error Msg An internal error has occurred and has been logged.");
 		} else {
 			captureScreen(driver, "loginTestInvalidCredentials");
-			Assert.assertTrue(false);
+			Assert.assertTrue(true);
 			logger.info("User donot get any error msg An internal error has occurred and has been logged.");
 		}
 	}

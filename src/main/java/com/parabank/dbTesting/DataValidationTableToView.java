@@ -17,13 +17,13 @@ public class DataValidationTableToView {
 		DbManager.setMsqlDbConnection();
 
 		// Get data from the table
-		List<Map<String, Object>> tableData = getTableData("select * from mypersonaldata.population_data");
+		List<Map<String, Object>> tableData = getTableData("select * from mypersonaldata.population_data limit 2");
 		System.out.println("************************** Data validation from Table: *************************"+"\n");
 		printData(tableData);
 		System.out.println("\n");
 
 		// Get data from the view
-		List<Map<String, Object>> viewData = getTableData("select * from mypersonaldata.population_data_v");
+		List<Map<String, Object>> viewData = getTableData("select * from mypersonaldata.population_data_v limit 2");
 		System.out.println("************************** Data validation from View: ******************************"+"\n");
 		printData(viewData);
 		System.out.println("\n");

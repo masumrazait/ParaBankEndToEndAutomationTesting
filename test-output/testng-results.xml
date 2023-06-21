@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+<testng-results ignored="0" total="9" passed="8" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-06-21T05:22:01 IST" name="ParaBankingSuite" finished-at="2023-06-21T05:23:29 IST" duration-ms="87902">
+  <suite started-at="2023-06-22T00:24:27 IST" name="ParaBankingSuite" finished-at="2023-06-22T00:26:32 IST" duration-ms="125246">
     <groups>
     </groups>
-    <test started-at="2023-06-21T05:22:01 IST" name="ParaBanking Test" finished-at="2023-06-21T05:23:29 IST" duration-ms="87902">
+    <test started-at="2023-06-22T00:24:27 IST" name="ParaBanking Test" finished-at="2023-06-22T00:26:32 IST" duration-ms="125246">
       <class name="com.parabank.testCases.PB_OpenNewAccount_TestCase">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.parabank.testCases.PB_OpenNewAccount_TestCase@73cd37c0]" started-at="2023-06-21T05:22:23 IST" name="setup" finished-at="2023-06-21T05:22:27 IST" duration-ms="3758" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.parabank.testCases.PB_OpenNewAccount_TestCase@73cd37c0]" started-at="2023-06-22T00:25:13 IST" name="setup" finished-at="2023-06-22T00:25:17 IST" duration-ms="4354" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,17 +18,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="OpenNewAccountTest()[pri:0, instance:com.parabank.testCases.PB_OpenNewAccount_TestCase@73cd37c0]" started-at="2023-06-21T05:22:27 IST" name="OpenNewAccountTest" finished-at="2023-06-21T05:22:46 IST" duration-ms="18819" status="PASS">
+        <test-method signature="OpenNewAccountTest()[pri:0, instance:com.parabank.testCases.PB_OpenNewAccount_TestCase@73cd37c0]" started-at="2023-06-22T00:25:17 IST" name="OpenNewAccountTest" finished-at="2023-06-22T00:25:36 IST" duration-ms="18766" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenNewAccountTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.parabank.testCases.PB_OpenNewAccount_TestCase@73cd37c0]" started-at="2023-06-21T05:22:46 IST" name="tearDown" finished-at="2023-06-21T05:22:46 IST" duration-ms="219" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.parabank.testCases.PB_OpenNewAccount_TestCase@73cd37c0]" started-at="2023-06-22T00:25:36 IST" name="tearDown" finished-at="2023-06-22T00:25:36 IST" duration-ms="237" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.parabank.testCases.PB_OpenNewAccount_TestCase -->
       <class name="com.parabank.testCases.PB_Login_TestCase">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.parabank.testCases.PB_Login_TestCase@5505ae1a]" started-at="2023-06-21T05:22:09 IST" name="setup" finished-at="2023-06-21T05:22:11 IST" duration-ms="2684" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.parabank.testCases.PB_Login_TestCase@5505ae1a]" started-at="2023-06-22T00:24:33 IST" name="setup" finished-at="2023-06-22T00:24:38 IST" duration-ms="4674" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -39,25 +39,98 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginTest()[pri:0, instance:com.parabank.testCases.PB_Login_TestCase@5505ae1a]" started-at="2023-06-21T05:22:11 IST" name="loginTest" finished-at="2023-06-21T05:22:17 IST" duration-ms="5796" status="PASS">
+        <test-method signature="loginTest()[pri:0, instance:com.parabank.testCases.PB_Login_TestCase@5505ae1a]" started-at="2023-06-22T00:24:38 IST" name="loginTest" finished-at="2023-06-22T00:24:45 IST" duration-ms="6992" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method signature="loginTestInvalidCredentials()[pri:1, instance:com.parabank.testCases.PB_Login_TestCase@5505ae1a]" started-at="2023-06-21T05:22:17 IST" name="loginTestInvalidCredentials" finished-at="2023-06-21T05:22:18 IST" duration-ms="497" status="PASS">
+        <test-method signature="loginTestInvalidCredentials()[pri:1, instance:com.parabank.testCases.PB_Login_TestCase@5505ae1a]" started-at="2023-06-22T00:24:45 IST" name="loginTestInvalidCredentials" finished-at="2023-06-22T00:25:07 IST" duration-ms="22262" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//p[contains(text(), 'An internal error has occurred and has been logged.')]"}
+  (Session info: chrome=114.0.5735.134)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MASUM', ip: '192.168.0.107', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.134, chrome: {chromedriverVersion: 114.0.5735.16 (7e1ff058633f..., userDataDir: C:\Users\masum\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:65178}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 831c77aac93b2f593abcc3c5c4351b8e
+*** Element info: {Using=xpath, value=//p[contains(text(), 'An internal error has occurred and has been logged.')]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//p[contains(text(), 'An internal error has occurred and has been logged.')]"}
+  (Session info: chrome=114.0.5735.134)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MASUM', ip: '192.168.0.107', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.134, chrome: {chromedriverVersion: 114.0.5735.16 (7e1ff058633f..., userDataDir: C:\Users\masum\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:65178}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 831c77aac93b2f593abcc3c5c4351b8e
+*** Element info: {Using=xpath, value=//p[contains(text(), 'An internal error has occurred and has been logged.')]}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy19.getText(Unknown Source)
+at com.parabank.pageObjects.LoginPage.getErrorMessage(LoginPage.java:55)
+at com.parabank.testCases.PB_Login_TestCase.loginTestInvalidCredentials(PB_Login_TestCase.java:65)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTestInvalidCredentials -->
-        <test-method signature="loginTestWithoutCredentials()[pri:2, instance:com.parabank.testCases.PB_Login_TestCase@5505ae1a]" started-at="2023-06-21T05:22:18 IST" name="loginTestWithoutCredentials" finished-at="2023-06-21T05:22:23 IST" duration-ms="5007" status="PASS">
+        <test-method signature="loginTestWithoutCredentials()[pri:2, instance:com.parabank.testCases.PB_Login_TestCase@5505ae1a]" started-at="2023-06-22T00:25:07 IST" name="loginTestWithoutCredentials" finished-at="2023-06-22T00:25:12 IST" duration-ms="5023" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTestWithoutCredentials -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.parabank.testCases.PB_Login_TestCase@5505ae1a]" started-at="2023-06-21T05:22:23 IST" name="tearDown" finished-at="2023-06-21T05:22:23 IST" duration-ms="201" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.parabank.testCases.PB_Login_TestCase@5505ae1a]" started-at="2023-06-22T00:25:12 IST" name="tearDown" finished-at="2023-06-22T00:25:13 IST" duration-ms="252" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.parabank.testCases.PB_Login_TestCase -->
       <class name="com.parabank.testCases.PB_Register_TestCase">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.parabank.testCases.PB_Register_TestCase@1869fbd2]" started-at="2023-06-21T05:22:01 IST" name="setup" finished-at="2023-06-21T05:22:07 IST" duration-ms="5831" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.parabank.testCases.PB_Register_TestCase@1869fbd2]" started-at="2023-06-22T00:24:27 IST" name="setup" finished-at="2023-06-22T00:24:32 IST" duration-ms="4789" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -68,17 +141,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="RegisterTest()[pri:0, instance:com.parabank.testCases.PB_Register_TestCase@1869fbd2]" started-at="2023-06-21T05:22:07 IST" name="RegisterTest" finished-at="2023-06-21T05:22:09 IST" duration-ms="1589" status="PASS">
+        <test-method signature="RegisterTest()[pri:0, instance:com.parabank.testCases.PB_Register_TestCase@1869fbd2]" started-at="2023-06-22T00:24:32 IST" name="RegisterTest" finished-at="2023-06-22T00:24:33 IST" duration-ms="1693" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- RegisterTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.parabank.testCases.PB_Register_TestCase@1869fbd2]" started-at="2023-06-21T05:22:09 IST" name="tearDown" finished-at="2023-06-21T05:22:09 IST" duration-ms="120" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.parabank.testCases.PB_Register_TestCase@1869fbd2]" started-at="2023-06-22T00:24:33 IST" name="tearDown" finished-at="2023-06-22T00:24:33 IST" duration-ms="120" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.parabank.testCases.PB_Register_TestCase -->
       <class name="com.parabank.testCases.PB_TransferFunds_TestCase">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.parabank.testCases.PB_TransferFunds_TestCase@21337f7b]" started-at="2023-06-21T05:22:46 IST" name="setup" finished-at="2023-06-21T05:22:49 IST" duration-ms="2902" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.parabank.testCases.PB_TransferFunds_TestCase@21337f7b]" started-at="2023-06-22T00:25:36 IST" name="setup" finished-at="2023-06-22T00:25:39 IST" duration-ms="3210" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -89,21 +162,21 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="TransferFundsWithoutAmountTest()[pri:1, instance:com.parabank.testCases.PB_TransferFunds_TestCase@21337f7b]" started-at="2023-06-21T05:22:49 IST" name="TransferFundsWithoutAmountTest" finished-at="2023-06-21T05:23:01 IST" duration-ms="11935" status="PASS">
+        <test-method signature="TransferFundsWithoutAmountTest()[pri:1, instance:com.parabank.testCases.PB_TransferFunds_TestCase@21337f7b]" started-at="2023-06-22T00:25:39 IST" name="TransferFundsWithoutAmountTest" finished-at="2023-06-22T00:25:53 IST" duration-ms="13393" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TransferFundsWithoutAmountTest -->
-        <test-method signature="TransferFundsWithValidDetailsTest()[pri:2, instance:com.parabank.testCases.PB_TransferFunds_TestCase@21337f7b]" started-at="2023-06-21T05:23:01 IST" name="TransferFundsWithValidDetailsTest" finished-at="2023-06-21T05:23:07 IST" duration-ms="6843" status="PASS">
+        <test-method signature="TransferFundsWithValidDetailsTest()[pri:2, instance:com.parabank.testCases.PB_TransferFunds_TestCase@21337f7b]" started-at="2023-06-22T00:25:53 IST" name="TransferFundsWithValidDetailsTest" finished-at="2023-06-22T00:26:00 IST" duration-ms="7135" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TransferFundsWithValidDetailsTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.parabank.testCases.PB_TransferFunds_TestCase@21337f7b]" started-at="2023-06-21T05:23:07 IST" name="tearDown" finished-at="2023-06-21T05:23:08 IST" duration-ms="203" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.parabank.testCases.PB_TransferFunds_TestCase@21337f7b]" started-at="2023-06-22T00:26:00 IST" name="tearDown" finished-at="2023-06-22T00:26:00 IST" duration-ms="278" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.parabank.testCases.PB_TransferFunds_TestCase -->
       <class name="com.parabank.testCases.PB_Bill_Pay_TestCase">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.parabank.testCases.PB_Bill_Pay_TestCase@2bb3058]" started-at="2023-06-21T05:23:08 IST" name="setup" finished-at="2023-06-21T05:23:10 IST" duration-ms="2595" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.parabank.testCases.PB_Bill_Pay_TestCase@2bb3058]" started-at="2023-06-22T00:26:00 IST" name="setup" finished-at="2023-06-22T00:26:05 IST" duration-ms="5116" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -114,15 +187,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="BillPayWithoutAmountTest()[pri:1, instance:com.parabank.testCases.PB_Bill_Pay_TestCase@2bb3058]" started-at="2023-06-21T05:23:10 IST" name="BillPayWithoutAmountTest" finished-at="2023-06-21T05:23:22 IST" duration-ms="11600" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BillPayWithoutAmountTest -->
-        <test-method signature="BillPayWithValidDetailsTest()[pri:2, instance:com.parabank.testCases.PB_Bill_Pay_TestCase@2bb3058]" started-at="2023-06-21T05:23:22 IST" name="BillPayWithValidDetailsTest" finished-at="2023-06-21T05:23:29 IST" duration-ms="6719" status="PASS">
+        <test-method signature="BillPayWithValidDetailsTest()[pri:1, instance:com.parabank.testCases.PB_Bill_Pay_TestCase@2bb3058]" started-at="2023-06-22T00:26:05 IST" name="BillPayWithValidDetailsTest" finished-at="2023-06-22T00:26:25 IST" duration-ms="19619" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BillPayWithValidDetailsTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.parabank.testCases.PB_Bill_Pay_TestCase@2bb3058]" started-at="2023-06-21T05:23:29 IST" name="tearDown" finished-at="2023-06-21T05:23:29 IST" duration-ms="239" status="PASS">
+        <test-method signature="BillPayWithoutAmountTest()[pri:2, instance:com.parabank.testCases.PB_Bill_Pay_TestCase@2bb3058]" started-at="2023-06-22T00:26:25 IST" name="BillPayWithoutAmountTest" finished-at="2023-06-22T00:26:31 IST" duration-ms="6668" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BillPayWithoutAmountTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.parabank.testCases.PB_Bill_Pay_TestCase@2bb3058]" started-at="2023-06-22T00:26:31 IST" name="tearDown" finished-at="2023-06-22T00:26:32 IST" duration-ms="310" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

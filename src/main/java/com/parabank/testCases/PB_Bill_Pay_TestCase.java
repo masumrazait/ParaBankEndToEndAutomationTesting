@@ -1,22 +1,26 @@
 package com.parabank.testCases;
 
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
 
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import com.parabank.pageObjects.BillPayPage;
 import com.parabank.pageObjects.LoginPage;
-import com.parabank.pageObjects.TransferFundsPage;
 
 public class PB_Bill_Pay_TestCase extends BaseClass {
 
 	@Test(priority = 1)
-	public void BillPayWithoutAmountTest() throws InterruptedException, IOException {
+	public void BillPayWithValidDetailsTest() throws InterruptedException, IOException {
 
 		logger.info("URL is opened");
 		LoginPage lp = new LoginPage(driver);
-		TransferFundsPage tF = new TransferFundsPage(driver);
+		BillPayPage bP = new BillPayPage(driver);
 
 		lp.setUsername(readconfig.getUsernameID());
 		logger.info("User entered the User Name:");
@@ -38,58 +42,93 @@ public class PB_Bill_Pay_TestCase extends BaseClass {
 			logger.info("Login test failed");
 		}
 
-		tF.clickOnTransferFunds();
-		logger.info("user clicked on Transfer Funds Menu for Transfer money! ");
+		bP.clickOnBillPayMenu();
+		logger.info("user clicked on Bill Payament Menu! ");
 		Thread.sleep(3000);
 
-		tF.clickOnTransferSubmitBtn();
-		logger.info("User Submited the Transfer !");
+		WebDriverWait wait = new WebDriverWait(driver, 15);
+		wait.until(ExpectedConditions.titleContains("ParaBank | Bill Pay"));
+
+		bP.setPayeeName(readconfig.getPayeeName());
+		logger.info("User entered the name.");
+		bP.setPayeeAddress(readconfig.getPayeeAddress());
+		logger.info("User entered the Address.");
+		bP.setPayeeCity(readconfig.getPayeeCity());
+		logger.info("User entered the City.");
+		bP.setPayeeState(readconfig.getPayeeState());
+		logger.info("User entered the State.");
+		bP.setPayeezipCode(readconfig.getPayeezipCode());
+		logger.info("User entered the zipCode.");
+		Thread.sleep(3000);
+		bP.setPayeePhone(readconfig.getPayeePhone());
+		logger.info("User entered the Phone Number.");
+		bP.setPayeeAccountNumber(readconfig.getPayeeAccountNumber());
+		logger.info("User entered the AccountNumber.");
+		bP.setVerifyAccount(readconfig.getVerifyAccount());
+		logger.info("User Verified the Account.");
+		Thread.sleep(3000);
+		Select FromAccount = new Select(bP.selectFromAccount());
+		FromAccount.selectByIndex(0);
+		logger.info("User choose to account from #");
+
+		bP.clickOnSendPaymentSubmitBtn();
+		logger.info("User Send Payment!");
 		Thread.sleep(3000);
 
-		if (driver.getPageSource().contains("The amount cannot be empty.")) {
+		if (driver.getPageSource().contains("Bill Payment Complete")) {
 			Assert.assertTrue(true);
-			logger.info("The amount cannot be empty. test passed!");
+			logger.info("Bill Payment is transfer from account was successful. test passed!");
 		} else {
-			captureScreen(driver, "BillPayWithoutAmountTest");
+			captureScreen(driver, "BillPayWithValidDetailsTest");
 			Assert.assertTrue(false);
-			logger.info("Funds is Tranfer test failed");
+			logger.info("Bill Payment is not transfer from account was successful. test failed");
 		}
 
 	}
 
 	@Test(priority = 2)
-	public void BillPayWithValidDetailsTest() throws InterruptedException, IOException {
+	public void BillPayWithoutAmountTest() throws InterruptedException, IOException {
 
 		logger.info("URL is opened");
-		TransferFundsPage tF = new TransferFundsPage(driver);
+		BillPayPage bP = new BillPayPage(driver);
 
-		tF.clickOnTransferFunds();
-		logger.info("user clicked on Transfer Funds Menu for Transfer money! ");
+		bP.clickOnBillPayMenu();
+		logger.info("user clicked on Bill Payament Menu! ");
 		Thread.sleep(3000);
 
-		tF.setAmount(readconfig.getAmount());
-		logger.info("user entered the Amount for transfer funds!");
+		WebDriverWait wait = new WebDriverWait(driver, 15);
+		wait.until(ExpectedConditions.titleContains("ParaBank | Bill Pay"));
 
-		Select FromAccount = new Select(tF.selectFromAccount());
-		FromAccount.selectByIndex(1);
-		logger.info("User choose from account number#");
-
-		Select ToAccount = new Select(tF.selectToAccount());
-		ToAccount.selectByIndex(1);
-		logger.info("User choose to account number#");
-
-		tF.clickOnTransferSubmitBtn();
-		logger.info("User Clicked on The amount cannot be empty. Menu!");
-		
+		bP.clickOnSendPaymentSubmitBtn();
+		logger.info("User Send Payment!");
 		Thread.sleep(3000);
-		
-		if (driver.getPageSource().contains("Transfer Complete!")) {
+
+		boolean isAllInputsRequired = true;
+		List<String> requiredFields = new ArrayList<String>();
+		requiredFields.add("Payee name is required.");
+		requiredFields.add("Address is required.");
+		requiredFields.add("City is required.");
+		requiredFields.add("State is required.");
+		requiredFields.add("Zip Code is required.");
+		requiredFields.add("Phone number is required.");
+		requiredFields.add("Account number is required.");
+		requiredFields.add("Account number is required.");
+		requiredFields.add("The amount cannot be empty.");
+
+		for (String requiredField : requiredFields) {
+			if (!driver.getPageSource().contains(requiredField)) {
+				isAllInputsRequired = false;
+				break;
+			}
+		}
+
+		if (isAllInputsRequired) {
 			Assert.assertTrue(true);
-			logger.info("Transfer Complete! test passed");
+			logger.info("Payment is not sent Complete! test passed");
 		} else {
-			captureScreen(driver, "BillPayWithValidDetailsTest");
+			captureScreen(driver, "BillPayWithoutAmountTest");
 			Assert.assertTrue(false);
-			logger.info("Transfer not Complete! test failed");
+			logger.info("Payment is sent Complete! test failed");
 		}
 
 	}

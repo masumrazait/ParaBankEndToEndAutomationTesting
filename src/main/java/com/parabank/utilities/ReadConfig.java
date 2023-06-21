@@ -131,5 +131,51 @@ public class ReadConfig {
 		String Amount = pro.getProperty("Amount");
 		return Amount;
 	}
+	
+	//Bill Payment
+	public String getPayeeName() {
+		String PayeeName = pro.getProperty("PayeeName");
+		return PayeeName;
+	}
 
+	public String getPayeeAddress() {
+		String PayeeAddress = pro.getProperty("PayeeAddress");
+		return PayeeAddress;
+	}
+
+	public String getPayeeCity() {
+		String PayeeCity = pro.getProperty("PayeeCity");
+		return PayeeCity;
+	}
+	
+	public String getPayeeState() {
+		String PayeeState = pro.getProperty("PayeeState");
+		return PayeeState;
+	}
+	
+	public String getPayeezipCode() {
+		String PayeezipCode = pro.getProperty("PayeezipCode");
+		return PayeezipCode;
+	}
+	
+	public String getPayeePhone() {
+		String PayeePhone = pro.getProperty("PayeePhone");
+		return PayeePhone;
+	}
+	
+	public String getPayeeAccountNumber() {
+		String PayeeAccountNumber = pro.getProperty("PayeeAccountNumber");
+		return PayeeAccountNumber;
+	}
+	
+	public String getVerifyAccount() {
+		String VerifyAccount = pro.getProperty("VerifyAccount");
+		return VerifyAccount;
+	}
+	
+	public String getBillPayAmount() {
+		String BillPayAmount = pro.getProperty("Amount");
+		return BillPayAmount;
+	}
+	
 }

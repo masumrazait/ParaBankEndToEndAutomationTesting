@@ -14,47 +14,103 @@ public class BillPayPage {
 		PageFactory.initElements(rdriver, this);
 	}
 
-	@FindBy(partialLinkText = "Transfer Funds")
+	@FindBy(xpath="//a[normalize-space()='Bill Pay']")
 	@CacheLookup
-	WebElement TransferFunds;
+	WebElement BillPayMenu;
 
-	@FindBy(xpath = "//input[@value='Transfer']")
+	@FindBy(xpath ="//input[@name='payee.name']")
 	@CacheLookup
-	WebElement TransferBtn;
-
-	@FindBy(id = "amount")
+	WebElement txtPayeeName;
+	
+	@FindBy(xpath ="//input[@name='payee.address.street']")
 	@CacheLookup
-	WebElement txtAmount;
+	WebElement txtPayeeAddress;
+	
+	@FindBy(xpath ="//input[@name='payee.address.city']")
+	@CacheLookup
+	WebElement txtPayeeCity;
+	
+	@FindBy(xpath ="//input[@name='payee.address.state']")
+	@CacheLookup
+	WebElement txtPayeeState;
+	
+	@FindBy(xpath ="//input[@name='payee.address.zipCode']")
+	@CacheLookup
+	WebElement txtPayeezipCode;
+	
+	@FindBy(xpath ="/html/body/div[1]/div[3]/div[2]/div/div[1]/form/table/tbody/tr[6]/td[2]/input")
+	@CacheLookup
+	WebElement txtPayeePhone;
+	
+	@FindBy(xpath ="//input[@name='payee.accountNumber']")
+	@CacheLookup
+	WebElement txtPayeeAccountNumber;
 
-	@FindBy(id = "fromAccountId")
+	@FindBy(xpath="//input[@name='verifyAccount']")
+	@CacheLookup
+	WebElement txtVerifyAccount;
+
+	@FindBy(xpath="//input[@name='amount']")
+	@CacheLookup
+	WebElement txtBillPayAmount;
+
+	@FindBy(xpath = "//select[@name='fromAccountId']")
 	@CacheLookup
 	WebElement SelectFromAccnt;
-
-	@FindBy(id = "toAccountId")
+	
+	@FindBy(xpath = "//input[@value='Send Payment']")
 	@CacheLookup
-	WebElement SelectToAccnt;
+	WebElement SendPaymentSubmitBtn;
+	
 
 	// Action Method
-	public void clickOnTransferFunds() {
-		TransferFunds.click();
+	public void clickOnBillPayMenu() {
+		BillPayMenu.click();
 	}
 
-	public void setAmount(String Amount) {
-		txtAmount.sendKeys(Amount);
+	public void setPayeeName(String PayeeName) {
+		txtPayeeName.sendKeys(PayeeName);
 	}
 
+	public void setPayeeAddress(String PayeeAddress) {
+		txtPayeeAddress.sendKeys(PayeeAddress);
+	}
+	
+	public void setPayeeCity(String PayeeCity) {
+		txtPayeeCity.sendKeys(PayeeCity);
+	}
+	
+	public void setPayeeState(String PayeeState) {
+		txtPayeeState.sendKeys(PayeeState);
+	}
+	
+	public void setPayeezipCode(String PayeezipCode) {
+		txtPayeezipCode.sendKeys(PayeezipCode);
+	}
+	
+	public void setPayeePhone(String PayeePhone) {
+		txtPayeePhone.sendKeys(PayeePhone);
+	}
+	
+	public void setPayeeAccountNumber(String PayeeAccountNumber) {
+		txtPayeeAccountNumber.sendKeys(PayeeAccountNumber);
+	}
+	
+	public void setVerifyAccount(String VerifyAccount) {
+		txtVerifyAccount.sendKeys(VerifyAccount);
+	}
+	
+	public void setBillPayAmount(String Amount) {
+		txtBillPayAmount.sendKeys(Amount);
+	}
+	
 	public WebElement selectFromAccount() {
 		SelectFromAccnt.click();
 		return SelectFromAccnt;
 	}
-
-	public WebElement selectToAccount() {
-		SelectToAccnt.click();
-		return SelectToAccnt;
-	}
-
-	public void clickOnTransferSubmitBtn() {
-		TransferBtn.click();
+	
+	public void clickOnSendPaymentSubmitBtn() {
+		SendPaymentSubmitBtn.click();
 	}
 
 }
