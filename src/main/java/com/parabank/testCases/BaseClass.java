@@ -7,6 +7,10 @@ import java.util.concurrent.TimeUnit;
 import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
+import org.openqa.selenium.Alert;
+import org.openqa.selenium.By;
+import org.openqa.selenium.NoAlertPresentException;
+import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -27,7 +31,8 @@ public class BaseClass {
 	public String baseURL=readconfig.getApplicationURL();
 	public static WebDriver driver;
 	public static Logger logger;
-	
+	public boolean acceptNextAlert = true;
+	  
 	@Parameters("browser")
 	@BeforeClass
 	public void setup(String br)
@@ -76,6 +81,7 @@ public class BaseClass {
 		driver.quit();
 	}
 	
+	
 	public void captureScreen(WebDriver driver, String tname) throws IOException 
 	{
 		TakesScreenshot ts = (TakesScreenshot) driver;
@@ -85,6 +91,39 @@ public class BaseClass {
 		System.out.println("Screenshot taken");
 	}
 	
-	
-	
+
+
+  private boolean isElementPresent(By by) {
+    try {
+      driver.findElement(by);
+      return true;
+    } catch (NoSuchElementException e) {
+      return false;
+    }
+  }
+
+  private boolean isAlertPresent() {
+    try {
+      driver.switchTo().alert();
+      return true;
+    } catch (NoAlertPresentException e) {
+      return false;
+    }
+  }
+
+  private String closeAlertAndGetItsText() {
+    try {
+      Alert alert = driver.switchTo().alert();
+      String alertText = alert.getText();
+      if (acceptNextAlert) {
+        alert.accept();
+      } else {
+        alert.dismiss();
+      }
+      return alertText;
+    } finally {
+      acceptNextAlert = true;
+    }
+}
+
 }
