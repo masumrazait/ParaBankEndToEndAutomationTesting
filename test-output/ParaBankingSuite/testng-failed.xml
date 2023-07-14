@@ -14,14 +14,6 @@
           <include name="loginTestInvalidCredentials"/>
         </methods>
       </class> <!-- com.parabank.testCases.PB_Login_TestCase -->
-      <class name="com.parabank.testCases.PB_TransferFunds_TestCase">
-        <methods>
-          <include name="setup"/>
-          <include name="TransferFundsWithValidDetailsTest"/>
-          <include name="tearDown"/>
-          <include name="TransferFundsWithoutAmountTest"/>
-        </methods>
-      </class> <!-- com.parabank.testCases.PB_TransferFunds_TestCase -->
     </classes>
   </test> <!-- ParaBanking Test(failed) -->
 </suite> <!-- Failed suite [ParaBankingSuite] -->
