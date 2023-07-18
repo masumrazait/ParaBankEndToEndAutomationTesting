@@ -1528,3 +1528,75 @@
 2023-07-18 21:43:49,770 - ParaBanking -INFO - User entered the password:
 2023-07-18 21:43:54,496 - ParaBanking -INFO - User clicked on Login Button
 2023-07-18 21:43:56,813 - ParaBanking -INFO - URL is opened
+2023-07-18 22:44:13,833 - ParaBanking -INFO - URL is opened
+2023-07-18 22:44:14,394 - ParaBanking -INFO - User clicked on register Link
+2023-07-18 22:44:14,504 - ParaBanking -INFO - User Entered the First Name.
+2023-07-18 22:44:14,580 - ParaBanking -INFO - User Entered the Last Name.
+2023-07-18 22:44:14,655 - ParaBanking -INFO - User Entered the Address.
+2023-07-18 22:44:14,728 - ParaBanking -INFO - User Entered the City.
+2023-07-18 22:44:14,803 - ParaBanking -INFO - User Entered the State.
+2023-07-18 22:44:14,880 - ParaBanking -INFO - User Entered the ZipCode.
+2023-07-18 22:44:14,959 - ParaBanking -INFO - User Entered the PhoneNumber.
+2023-07-18 22:44:15,039 - ParaBanking -INFO - User Entered the Ssn.
+2023-07-18 22:44:15,121 - ParaBanking -INFO - User Entered the Username.
+2023-07-18 22:44:15,180 - ParaBanking -INFO - User Entered the Password.
+2023-07-18 22:44:15,250 - ParaBanking -INFO - User Entered the RepeatedPassword.
+2023-07-18 22:44:15,811 - ParaBanking -INFO - Account created Successfully! Customer landed to Para Bank Deshboard
+2023-07-18 22:44:20,113 - ParaBanking -INFO - URL is opened
+2023-07-18 22:44:20,283 - ParaBanking -INFO - User entered the User Name:
+2023-07-18 22:44:20,397 - ParaBanking -INFO - User entered the password:
+2023-07-18 22:44:24,167 - ParaBanking -INFO - User clicked on Login Button
+2023-07-18 22:44:26,182 - ParaBanking -INFO - Login test passed
+2023-07-18 22:44:27,135 - ParaBanking -INFO - User successfully logout!
+2023-07-18 22:44:27,145 - ParaBanking -INFO - URL is opened
+2023-07-18 22:44:27,210 - ParaBanking -INFO - Entered Invalid User Id
+2023-07-18 22:44:30,304 - ParaBanking -INFO - Entered Wrong password
+2023-07-18 22:44:33,849 - ParaBanking -INFO - URL is opened
+2023-07-18 22:44:33,849 - ParaBanking -INFO - User did not entered userId
+2023-07-18 22:44:33,849 - ParaBanking -INFO - User did not entered password
+2023-07-18 22:44:33,849 - ParaBanking -INFO - User click on login button.
+2023-07-18 22:44:44,412 - ParaBanking -INFO - URL is opened
+2023-07-18 22:44:44,520 - ParaBanking -INFO - User entered the User Name:
+2023-07-18 22:44:44,602 - ParaBanking -INFO - User entered the password:
+2023-07-18 22:44:47,517 - ParaBanking -INFO - User clicked on Login Button
+2023-07-18 22:44:49,527 - ParaBanking -INFO - Login test passed
+2023-07-18 22:44:50,024 - ParaBanking -INFO - user clicked on Open New Account
+2023-07-18 22:45:00,326 - ParaBanking -INFO - SAVINGS
+2023-07-18 22:45:00,404 - ParaBanking -INFO - User Open New Account Successfully!
+2023-07-18 22:45:03,437 - ParaBanking -INFO - account is now open test passed
+2023-07-18 22:45:06,339 - ParaBanking -INFO - URL is opened
+2023-07-18 22:45:06,429 - ParaBanking -INFO - User entered the User Name:
+2023-07-18 22:45:06,531 - ParaBanking -INFO - User entered the password:
+2023-07-18 22:45:09,357 - ParaBanking -INFO - User clicked on Login Button
+2023-07-18 22:45:11,376 - ParaBanking -INFO - Login test passed
+2023-07-18 22:45:11,827 - ParaBanking -INFO - user clicked on Transfer Funds Menu for Transfer money! 
+2023-07-18 22:45:14,923 - ParaBanking -INFO - User Submited the Transfer !
+2023-07-18 22:45:17,963 - ParaBanking -INFO - The amount cannot be empty. test passed!
+2023-07-18 22:45:17,963 - ParaBanking -INFO - URL is opened
+2023-07-18 22:45:18,466 - ParaBanking -INFO - user clicked on Transfer Funds Menu for Transfer money! 
+2023-07-18 22:45:21,580 - ParaBanking -INFO - user entered the Amount for transfer funds!
+2023-07-18 22:45:21,827 - ParaBanking -INFO - User choose from account number#
+2023-07-18 22:45:22,016 - ParaBanking -INFO - User choose to account number#
+2023-07-18 22:45:22,082 - ParaBanking -INFO - User Clicked on The amount cannot be empty. Menu!
+2023-07-18 22:45:25,112 - ParaBanking -INFO - Transfer Complete! test passed
+2023-07-18 22:45:28,564 - ParaBanking -INFO - URL is opened
+2023-07-18 22:45:28,697 - ParaBanking -INFO - User entered the User Name:
+2023-07-18 22:45:28,819 - ParaBanking -INFO - User entered the password:
+2023-07-18 22:45:31,964 - ParaBanking -INFO - User clicked on Login Button
+2023-07-18 22:45:33,984 - ParaBanking -INFO - Login test passed
+2023-07-18 22:45:34,431 - ParaBanking -INFO - user clicked on Bill Payament Menu! 
+2023-07-18 22:45:37,543 - ParaBanking -INFO - User entered the name.
+2023-07-18 22:45:37,643 - ParaBanking -INFO - User entered the Address.
+2023-07-18 22:45:37,734 - ParaBanking -INFO - User entered the City.
+2023-07-18 22:45:37,876 - ParaBanking -INFO - User entered the State.
+2023-07-18 22:45:38,010 - ParaBanking -INFO - User entered the zipCode.
+2023-07-18 22:45:41,149 - ParaBanking -INFO - User entered the Phone Number.
+2023-07-18 22:45:41,235 - ParaBanking -INFO - User entered the AccountNumber.
+2023-07-18 22:45:41,306 - ParaBanking -INFO - User Verified the Account.
+2023-07-18 22:45:44,507 - ParaBanking -INFO - User choose to account from #
+2023-07-18 22:45:44,606 - ParaBanking -INFO - User Send Payment!
+2023-07-18 22:45:47,635 - ParaBanking -INFO - Bill Payment is transfer from account was successful. test passed!
+2023-07-18 22:45:47,650 - ParaBanking -INFO - URL is opened
+2023-07-18 22:45:49,211 - ParaBanking -INFO - user clicked on Bill Payament Menu! 
+2023-07-18 22:45:52,328 - ParaBanking -INFO - User Send Payment!
+2023-07-18 22:45:55,510 - ParaBanking -INFO - Payment is not sent Complete! test passed
