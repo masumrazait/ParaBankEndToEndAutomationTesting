@@ -2287,3 +2287,42 @@
 2023-07-27 15:39:15,549 [main] INFO ParaBanking - user clicked on Bill Payament Menu! 
 2023-07-27 15:39:18,660 [main] INFO ParaBanking - User Send Payment!
 2023-07-27 15:39:21,833 [main] INFO ParaBanking - Payment is not sent Complete! test passed
+2023-07-30 21:13:58,116 [main] INFO ParaBanking - URL is opened
+2023-07-30 21:14:00,387 [main] INFO ParaBanking - User clicked on register Link
+2023-07-30 21:14:00,597 [main] INFO ParaBanking - User Entered the First Name.
+2023-07-30 21:14:00,700 [main] INFO ParaBanking - User Entered the Last Name.
+2023-07-30 21:14:00,816 [main] INFO ParaBanking - User Entered the Address.
+2023-07-30 21:14:00,933 [main] INFO ParaBanking - User Entered the City.
+2023-07-30 21:14:01,037 [main] INFO ParaBanking - User Entered the State.
+2023-07-30 21:14:01,131 [main] INFO ParaBanking - User Entered the ZipCode.
+2023-07-30 21:14:01,228 [main] INFO ParaBanking - User Entered the PhoneNumber.
+2023-07-30 21:14:01,331 [main] INFO ParaBanking - User Entered the Ssn.
+2023-07-30 21:14:01,440 [main] INFO ParaBanking - User Entered the Username.
+2023-07-30 21:14:01,539 [main] INFO ParaBanking - User Entered the Password.
+2023-07-30 21:14:01,637 [main] INFO ParaBanking - User Entered the RepeatedPassword.
+2023-07-30 21:14:02,959 [main] INFO ParaBanking - Account created Successfully! Customer landed to Para Bank Deshboard
+2023-07-30 21:14:17,495 [main] INFO ParaBanking - URL is opened
+2023-07-30 21:14:17,646 [main] INFO ParaBanking - User entered the User Name:
+2023-07-30 21:14:17,850 [main] INFO ParaBanking - User entered the password:
+2023-07-30 21:14:20,411 [main] INFO ParaBanking - User clicked on Login Button
+2023-07-30 21:14:22,807 [main] INFO ParaBanking - URL is opened
+2023-07-30 21:14:22,885 [main] INFO ParaBanking - Entered Invalid User Id
+2023-07-30 21:14:25,970 [main] INFO ParaBanking - Entered Wrong password
+2023-07-30 21:14:29,606 [main] INFO ParaBanking - URL is opened
+2023-07-30 21:14:29,607 [main] INFO ParaBanking - User did not entered userId
+2023-07-30 21:14:29,607 [main] INFO ParaBanking - User did not entered password
+2023-07-30 21:14:29,607 [main] INFO ParaBanking - User click on login button.
+2023-07-30 21:14:40,292 [main] INFO ParaBanking - URL is opened
+2023-07-30 21:14:40,396 [main] INFO ParaBanking - User entered the User Name:
+2023-07-30 21:14:40,489 [main] INFO ParaBanking - User entered the password:
+2023-07-30 21:14:43,178 [main] INFO ParaBanking - User clicked on Login Button
+2023-07-30 21:14:51,406 [main] INFO ParaBanking - URL is opened
+2023-07-30 21:14:51,501 [main] INFO ParaBanking - User entered the User Name:
+2023-07-30 21:14:51,596 [main] INFO ParaBanking - User entered the password:
+2023-07-30 21:14:57,360 [main] INFO ParaBanking - User clicked on Login Button
+2023-07-30 21:14:59,667 [main] INFO ParaBanking - URL is opened
+2023-07-30 21:15:23,739 [main] INFO ParaBanking - URL is opened
+2023-07-30 21:15:23,866 [main] INFO ParaBanking - User entered the User Name:
+2023-07-30 21:15:23,977 [main] INFO ParaBanking - User entered the password:
+2023-07-30 21:15:28,551 [main] INFO ParaBanking - User clicked on Login Button
+2023-07-30 21:15:30,890 [main] INFO ParaBanking - URL is opened
