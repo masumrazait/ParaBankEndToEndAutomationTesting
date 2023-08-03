@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>8/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Aug 03 17:16:01 IST 2023</td>
+<td>Started on:</td><td>Thu Aug 03 19:51:13 IST 2023</td>
 </tr>
-<tr><td>Total time:</td><td>115 seconds (115249 ms)</td>
+<tr><td>Total time:</td><td>130 seconds (130056 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -77,16 +77,61 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='com.parabank.testCases.PB_Login_TestCase.loginTestInvalidCredentials()'><b>loginTestInvalidCredentials</b><br>Test class: com.parabank.testCases.PB_Login_TestCase</td>
-<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
-	at com.parabank.testCases.PB_Login_TestCase.loginTestInvalidCredentials(PB_Login_TestCase.java:66)
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//p[contains(text(), &apos;An internal error has occurred and has been logged.&apos;)]&quot;}
+  (Session info: chrome=115.0.5790.111)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;MASUM&apos;, ip: &apos;192.168.0.100&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.111, chrome: {chromedriverVersion: 114.0.5735.16 (7e1ff058633f..., userDataDir: C:\Users\masum\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52066}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cb84ecba28fed8e39ce537b82dfb6087
+*** Element info: {Using=xpath, value=//p[contains(text(), &apos;An internal error has occurred and has been logged.&apos;)]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy19.getText(Unknown Source)
+	at com.parabank.pageObjects.LoginPage.getErrorMessage(LoginPage.java:55)
+	at com.parabank.testCases.PB_Login_TestCase.loginTestInvalidCredentials(PB_Login_TestCase.java:65)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1465263219", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1465263219'><pre>java.lang.AssertionError: expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1578)
-	at org.testng.Assert.assertTrue(Assert.java:57)
-	at org.testng.Assert.assertTrue(Assert.java:67)
-	at com.parabank.testCases.PB_Login_TestCase.loginTestInvalidCredentials(PB_Login_TestCase.java:66)
+... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1729904998", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1729904998'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//p[contains(text(), &apos;An internal error has occurred and has been logged.&apos;)]&quot;}
+  (Session info: chrome=115.0.5790.111)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;MASUM&apos;, ip: &apos;192.168.0.100&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.111, chrome: {chromedriverVersion: 114.0.5735.16 (7e1ff058633f..., userDataDir: C:\Users\masum\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52066}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cb84ecba28fed8e39ce537b82dfb6087
+*** Element info: {Using=xpath, value=//p[contains(text(), &apos;An internal error has occurred and has been logged.&apos;)]}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy19.getText(Unknown Source)
+	at com.parabank.pageObjects.LoginPage.getErrorMessage(LoginPage.java:55)
+	at com.parabank.testCases.PB_Login_TestCase.loginTestInvalidCredentials(PB_Login_TestCase.java:65)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -116,7 +161,7 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>6</td>
+<td>21</td>
 <td>com.parabank.testCases.PB_Login_TestCase@632ceb35</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
@@ -128,45 +173,45 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.parabank.testCases.PB_Bill_Pay_TestCase.BillPayWithoutAmountTest()'><b>BillPayWithoutAmountTest</b><br>Test class: com.parabank.testCases.PB_Bill_Pay_TestCase</td>
+<td title='com.parabank.testCases.PB_OpenNewAccount_TestCase.OpenNewAccountTest()'><b>OpenNewAccountTest</b><br>Test class: com.parabank.testCases.PB_OpenNewAccount_TestCase</td>
 <td></td>
-<td>13</td>
-<td>com.parabank.testCases.PB_Bill_Pay_TestCase@1458ed9c</td></tr>
+<td>19</td>
+<td>com.parabank.testCases.PB_OpenNewAccount_TestCase@1c93f6e1</td></tr>
 <tr>
 <td title='com.parabank.testCases.PB_Login_TestCase.loginTestWithoutCredentials()'><b>loginTestWithoutCredentials</b><br>Test class: com.parabank.testCases.PB_Login_TestCase</td>
 <td></td>
 <td>5</td>
 <td>com.parabank.testCases.PB_Login_TestCase@632ceb35</td></tr>
 <tr>
+<td title='com.parabank.testCases.PB_Bill_Pay_TestCase.BillPayWithValidDetailsTest()'><b>BillPayWithValidDetailsTest</b><br>Test class: com.parabank.testCases.PB_Bill_Pay_TestCase</td>
+<td></td>
+<td>19</td>
+<td>com.parabank.testCases.PB_Bill_Pay_TestCase@1458ed9c</td></tr>
+<tr>
+<td title='com.parabank.testCases.PB_Register_TestCase.RegisterTest()'><b>RegisterTest</b><br>Test class: com.parabank.testCases.PB_Register_TestCase</td>
+<td></td>
+<td>7</td>
+<td>com.parabank.testCases.PB_Register_TestCase@73cd37c0</td></tr>
+<tr>
+<td title='com.parabank.testCases.PB_Login_TestCase.loginTest()'><b>loginTest</b><br>Test class: com.parabank.testCases.PB_Login_TestCase</td>
+<td></td>
+<td>6</td>
+<td>com.parabank.testCases.PB_Login_TestCase@632ceb35</td></tr>
+<tr>
+<td title='com.parabank.testCases.PB_TransferFunds_TestCase.TransferFundsWithoutAmountTest()'><b>TransferFundsWithoutAmountTest</b><br>Test class: com.parabank.testCases.PB_TransferFunds_TestCase</td>
+<td></td>
+<td>12</td>
+<td>com.parabank.testCases.PB_TransferFunds_TestCase@1800a575</td></tr>
+<tr>
 <td title='com.parabank.testCases.PB_TransferFunds_TestCase.TransferFundsWithValidDetailsTest()'><b>TransferFundsWithValidDetailsTest</b><br>Test class: com.parabank.testCases.PB_TransferFunds_TestCase</td>
 <td></td>
 <td>7</td>
 <td>com.parabank.testCases.PB_TransferFunds_TestCase@1800a575</td></tr>
 <tr>
-<td title='com.parabank.testCases.PB_Bill_Pay_TestCase.BillPayWithValidDetailsTest()'><b>BillPayWithValidDetailsTest</b><br>Test class: com.parabank.testCases.PB_Bill_Pay_TestCase</td>
+<td title='com.parabank.testCases.PB_Bill_Pay_TestCase.BillPayWithoutAmountTest()'><b>BillPayWithoutAmountTest</b><br>Test class: com.parabank.testCases.PB_Bill_Pay_TestCase</td>
 <td></td>
-<td>18</td>
+<td>6</td>
 <td>com.parabank.testCases.PB_Bill_Pay_TestCase@1458ed9c</td></tr>
-<tr>
-<td title='com.parabank.testCases.PB_Login_TestCase.loginTest()'><b>loginTest</b><br>Test class: com.parabank.testCases.PB_Login_TestCase</td>
-<td></td>
-<td>5</td>
-<td>com.parabank.testCases.PB_Login_TestCase@632ceb35</td></tr>
-<tr>
-<td title='com.parabank.testCases.PB_Register_TestCase.RegisterTest()'><b>RegisterTest</b><br>Test class: com.parabank.testCases.PB_Register_TestCase</td>
-<td></td>
-<td>1</td>
-<td>com.parabank.testCases.PB_Register_TestCase@73cd37c0</td></tr>
-<tr>
-<td title='com.parabank.testCases.PB_OpenNewAccount_TestCase.OpenNewAccountTest()'><b>OpenNewAccountTest</b><br>Test class: com.parabank.testCases.PB_OpenNewAccount_TestCase</td>
-<td></td>
-<td>18</td>
-<td>com.parabank.testCases.PB_OpenNewAccount_TestCase@1c93f6e1</td></tr>
-<tr>
-<td title='com.parabank.testCases.PB_TransferFunds_TestCase.TransferFundsWithoutAmountTest()'><b>TransferFundsWithoutAmountTest</b><br>Test class: com.parabank.testCases.PB_TransferFunds_TestCase</td>
-<td></td>
-<td>11</td>
-<td>com.parabank.testCases.PB_TransferFunds_TestCase@1800a575</td></tr>
 </table><p>
 </body>
 </html>
