@@ -1,6 +1,7 @@
 package com.parabank.testCases;
 
 import java.io.IOException;
+import java.time.Duration;
 
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -55,7 +56,7 @@ public class PB_Register_TestCase extends BaseClass {
 		
 		rp.clickOnRegisterBtn();
 		 
-		WebDriverWait wait= new WebDriverWait(driver, 10);
+		WebDriverWait wait= new WebDriverWait(driver, 15);
 		wait.until(ExpectedConditions.titleContains(readconfig.getDesboardTitle()));
 		
 		if(driver.getTitle().equals(readconfig.getDesboardTitle()))

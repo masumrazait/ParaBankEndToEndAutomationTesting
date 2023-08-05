@@ -2,6 +2,7 @@ package com.parabank.testCases;
 
 import java.io.File;
 import java.io.IOException;
+import java.time.Duration;
 import java.util.concurrent.TimeUnit;
 
 import org.apache.commons.io.FileUtils;
@@ -43,9 +44,14 @@ public class BaseClass {
 		
 		if(br.equals("chrome")) 
 		{
-			System.setProperty("webdriver.chrome.driver","./Drivers/chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver","D:\\My_Project\\Testing_Project\\ParaBankEndToEndAutomationTesting\\Drivers\\chromedriver.exe");
 			driver=new ChromeDriver();
 		}
+		
+		/*
+		 * if (br.equals("chrome")) { WebDriverManager.chromedriver().setup(); driver =
+		 * new ChromeDriver(); }
+		 */
 		else if(br.equals("firefox"))
 		{
 			System.setProperty("webdriver.gecko.driver",readconfig.getFirefoxPath());
@@ -69,9 +75,9 @@ public class BaseClass {
         driver.manage().window().maximize(); 
         
         // Implicit wait  
-        driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS); 
+        driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
         
-        WebDriverWait wait= new WebDriverWait(driver, 10);
+        WebDriverWait wait = new WebDriverWait(driver,10);
        
 }
         

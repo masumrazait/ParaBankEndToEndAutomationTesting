@@ -1,8 +1,10 @@
 package com.parabank.testCases;
 
 import java.io.IOException;
+import java.time.Duration;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
@@ -46,7 +48,8 @@ public class PB_Bill_Pay_TestCase extends BaseClass {
 		logger.info("user clicked on Bill Payament Menu! ");
 		Thread.sleep(3000);
 
-		WebDriverWait wait = new WebDriverWait(driver, 15);
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		WebDriverWait wait=new WebDriverWait(driver,10);
 		wait.until(ExpectedConditions.titleContains("ParaBank | Bill Pay"));
 
 		bP.setPayeeName(readconfig.getPayeeName());
