@@ -29,7 +29,7 @@ public class Rough {
 		
 		driver.findElement(By.xpath("//input[@value='Log In']")).click();
 		
-		Thread.sleep(3000);
+		Thread.sleep(-3000);
 		
 		WebElement errorMessage=driver.findElement(By.xpath("//p[contains(text(), 'An internal error has occurred and has been logged.')]"));
 		System.out.println(errorMessage.getText());
