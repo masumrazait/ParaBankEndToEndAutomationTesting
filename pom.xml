@@ -96,6 +96,14 @@
 	<version>1.4.7</version>
 </dependency>
 
+<!-- https://mvnrepository.com/artifact/com.beust/jcommander -->
+<dependency>
+    <groupId>com.beust</groupId>
+    <artifactId>jcommander</artifactId>
+    <version>1.78</version>
+</dependency>
+
+
 <!-- https://mvnrepository.com/artifact/org.apache.poi/poi-examples -->
 <dependency>
     <groupId>org.apache.poi</groupId>

@@ -25,7 +25,7 @@ public class PB_Bill_Pay_TestCase extends BaseClass {
 		BillPayPage bP = new BillPayPage(driver);
 
 		lp.setUsername(readconfig.getUsernameID());
-		logger.info("User entered the User Name:");
+		logger.info("User entered the User Name:");http://influencerlabs.in/career.html
 
 		lp.setPassword(readconfig.getUserPasswordId());
 		logger.info("User entered the password:");

@@ -103,7 +103,7 @@
                     <div class="method-list-content failed suite-ParaBankingSuite">
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-ParaBankingSuite" title="com.parabank.testCases.PB_TransferFunds_TestCase" class="method navigator-link" hash-for-method="TransferFundsWithValidDetailsTest">TransferFundsWithValidDetailsTest</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-ParaBankingSuite" title="com.parabank.testCases.PB_Register_TestCase" class="method navigator-link" hash-for-method="RegisterTest">RegisterTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -142,7 +142,7 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-ParaBankingSuite" title="com.parabank.testCases.PB_Register_TestCase" class="method navigator-link" hash-for-method="RegisterTest">RegisterTest</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-ParaBankingSuite" title="com.parabank.testCases.PB_TransferFunds_TestCase" class="method navigator-link" hash-for-method="TransferFundsWithValidDetailsTest">TransferFundsWithValidDetailsTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -175,22 +175,23 @@
           <div class="suite-ParaBankingSuite-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
-              <span class="class-name">com.parabank.testCases.PB_TransferFunds_TestCase</span>
+              <span class="class-name">com.parabank.testCases.PB_Register_TestCase</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="TransferFundsWithValidDetailsTest">
-                  </a> <!-- TransferFundsWithValidDetailsTest -->
-                  <span class="method-name">TransferFundsWithValidDetailsTest</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Cannot locate option with index: 1
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+                  <a name="RegisterTest">
+                  </a> <!-- RegisterTest -->
+                  <span class="method-name">RegisterTest</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for title to contain &quot;ParaBank | Customer Created&quot;. Current title: &quot;ParaBank | Register for Free Online Account Access&quot; (tried for 15 second(s) with 500 milliseconds interval)
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;MASUM&apos;, ip: &apos;192.168.29.117&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
-Driver info: driver.version: unknown
-	at org.openqa.selenium.support.ui.Select.setSelectedByIndex(Select.java:297)
-	at org.openqa.selenium.support.ui.Select.selectByIndex(Select.java:172)
-	at com.parabank.testCases.PB_TransferFunds_TestCase.TransferFundsWithValidDetailsTest(PB_TransferFunds_TestCase.java:74)
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.171, chrome: {chromedriverVersion: 115.0.5790.170 (cc0d30c2ca5..., userDataDir: C:\Users\masum\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54596}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 239d118c53f679d9376498f1c444716e
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at com.parabank.testCases.PB_Register_TestCase.RegisterTest(PB_Register_TestCase.java:60)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 ... Removed 27 stack frames
 </div> <!-- stack-trace -->
@@ -209,32 +210,10 @@ Driver info: driver.version: unknown
                   <a name="loginTestInvalidCredentials">
                   </a> <!-- loginTestInvalidCredentials -->
                   <span class="method-name">loginTestInvalidCredentials</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//p[contains(text(), &apos;An internal error has occurred and has been logged.&apos;)]&quot;}
-  (Session info: chrome=115.0.5790.171)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;MASUM&apos;, ip: &apos;192.168.29.117&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.171, chrome: {chromedriverVersion: 115.0.5790.170 (cc0d30c2ca5..., userDataDir: C:\Users\masum\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62278}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 93dcc1ff374866c762770fc2b1f60165
-*** Element info: {Using=xpath, value=//p[contains(text(), &apos;An internal error has occurred and has been logged.&apos;)]}
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy19.getText(Unknown Source)
-	at com.parabank.pageObjects.LoginPage.getErrorMessage(LoginPage.java:55)
-	at com.parabank.testCases.PB_Login_TestCase.loginTestInvalidCredentials(PB_Login_TestCase.java:65)
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at com.parabank.testCases.PB_Login_TestCase.loginTestInvalidCredentials(PB_Login_TestCase.java:66)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 32 stack frames
+... Removed 31 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -257,8 +236,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;MASUM&apos;, ip: &apos;192.168.29.117&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.171, chrome: {chromedriverVersion: 115.0.5790.170 (cc0d30c2ca5..., userDataDir: C:\Users\masum\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62251}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 8ab44aa3bf9429b04ce435e77f6decde
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.171, chrome: {chromedriverVersion: 115.0.5790.170 (cc0d30c2ca5..., userDataDir: C:\Users\masum\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54641}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 49c757d95cdc85ea466306967ccf731b
 *** Element info: {Using=xpath, value=//*[text() = &quot;18894&quot;]}
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
@@ -281,24 +260,16 @@ Session ID: 8ab44aa3bf9429b04ce435e77f6decde
           <div class="suite-ParaBankingSuite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.parabank.testCases.PB_Register_TestCase</span>
+              <span class="class-name">com.parabank.testCases.PB_TransferFunds_TestCase</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="RegisterTest">
-                  </a> <!-- RegisterTest -->
-                  <span class="method-name">RegisterTest</span>
+                  <a name="TransferFundsWithValidDetailsTest">
+                  </a> <!-- TransferFundsWithValidDetailsTest -->
+                  <span class="method-name">TransferFundsWithValidDetailsTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-ParaBankingSuite-class-passed -->
-          <div class="suite-ParaBankingSuite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.parabank.testCases.PB_TransferFunds_TestCase</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
                   <a name="TransferFundsWithoutAmountTest">
@@ -434,43 +405,43 @@ data.addRows(10);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'testDemo')
 data.setCell(0, 2, 'com.parabank.testCases.Demo')
-data.setCell(0, 3, 33808);
+data.setCell(0, 3, 35061);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'BillPayWithValidDetailsTest')
-data.setCell(1, 2, 'com.parabank.testCases.PB_Bill_Pay_TestCase')
-data.setCell(1, 3, 21881);
+data.setCell(1, 1, 'OpenNewAccountTest')
+data.setCell(1, 2, 'com.parabank.testCases.PB_OpenNewAccount_TestCase')
+data.setCell(1, 3, 19158);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'OpenNewAccountTest')
-data.setCell(2, 2, 'com.parabank.testCases.PB_OpenNewAccount_TestCase')
-data.setCell(2, 3, 18800);
+data.setCell(2, 1, 'BillPayWithValidDetailsTest')
+data.setCell(2, 2, 'com.parabank.testCases.PB_Bill_Pay_TestCase')
+data.setCell(2, 3, 19051);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'loginTestInvalidCredentials')
-data.setCell(3, 2, 'com.parabank.testCases.PB_Login_TestCase')
-data.setCell(3, 3, 16624);
+data.setCell(3, 1, 'RegisterTest')
+data.setCell(3, 2, 'com.parabank.testCases.PB_Register_TestCase')
+data.setCell(3, 3, 17113);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'TransferFundsWithoutAmountTest')
 data.setCell(4, 2, 'com.parabank.testCases.PB_TransferFunds_TestCase')
-data.setCell(4, 3, 11635);
+data.setCell(4, 3, 11615);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'RegisterTest')
-data.setCell(5, 2, 'com.parabank.testCases.PB_Register_TestCase')
-data.setCell(5, 3, 6914);
+data.setCell(5, 1, 'TransferFundsWithValidDetailsTest')
+data.setCell(5, 2, 'com.parabank.testCases.PB_TransferFunds_TestCase')
+data.setCell(5, 3, 7559);
 data.setCell(6, 0, 6)
 data.setCell(6, 1, 'BillPayWithoutAmountTest')
 data.setCell(6, 2, 'com.parabank.testCases.PB_Bill_Pay_TestCase')
-data.setCell(6, 3, 6804);
+data.setCell(6, 3, 6871);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'loginTest')
+data.setCell(7, 1, 'loginTestInvalidCredentials')
 data.setCell(7, 2, 'com.parabank.testCases.PB_Login_TestCase')
-data.setCell(7, 3, 5664);
+data.setCell(7, 3, 6626);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'loginTestWithoutCredentials')
+data.setCell(8, 1, 'loginTest')
 data.setCell(8, 2, 'com.parabank.testCases.PB_Login_TestCase')
-data.setCell(8, 3, 5014);
+data.setCell(8, 3, 5856);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'TransferFundsWithValidDetailsTest')
-data.setCell(9, 2, 'com.parabank.testCases.PB_TransferFunds_TestCase')
-data.setCell(9, 3, 3754);
+data.setCell(9, 1, 'loginTestWithoutCredentials')
+data.setCell(9, 2, 'com.parabank.testCases.PB_Login_TestCase')
+data.setCell(9, 3, 5010);
 window.suiteTableData['ParaBankingSuite']= { tableData: data, tableDiv: 'times-div-ParaBankingSuite'}
 return data;
 }
@@ -507,109 +478,109 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">RegisterTest</span>
-                <span class="method-start">13249 ms</span>
+                <span class="method-start">8176 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">20258 ms</span>
+                <span class="method-start">25385 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.parabank.testCases.PB_Bill_Pay_TestCase</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup(chrome)</span>
-                <span class="method-start">20422 ms</span>
+                <span class="method-start">25865 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">BillPayWithValidDetailsTest</span>
-                <span class="method-start">25821 ms</span>
+                <span class="method-start">31050 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">BillPayWithoutAmountTest</span>
-                <span class="method-start">47707 ms</span>
+                <span class="method-start">50110 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">54518 ms</span>
+                <span class="method-start">56985 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.parabank.testCases.Demo</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">54774 ms</span>
+                <span class="method-start">57413 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">testDemo</span>
-                <span class="method-start">55472 ms</span>
+                <span class="method-start">58181 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">89297 ms</span>
+                <span class="method-start">93248 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.parabank.testCases.PB_Login_TestCase</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup(chrome)</span>
-                <span class="method-start">89554 ms</span>
+                <span class="method-start">93708 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">loginTest</span>
-                <span class="method-start">94602 ms</span>
+                <span class="method-start">98435 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">loginTestInvalidCredentials</span>
-                <span class="method-start">100312 ms</span>
+                <span class="method-start">104297 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">loginTestWithoutCredentials</span>
-                <span class="method-start">116944 ms</span>
+                <span class="method-start">110927 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">121965 ms</span>
+                <span class="method-start">115953 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.parabank.testCases.PB_TransferFunds_TestCase</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup(chrome)</span>
-                <span class="method-start">122273 ms</span>
+                <span class="method-start">116425 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">TransferFundsWithoutAmountTest</span>
-                <span class="method-start">125877 ms</span>
+                <span class="method-start">120795 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">TransferFundsWithValidDetailsTest</span>
-                <span class="method-start">137515 ms</span>
+                <span class="method-start">132414 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">141272 ms</span>
+                <span class="method-start">139977 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.parabank.testCases.PB_OpenNewAccount_TestCase</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup(chrome)</span>
-                <span class="method-start">141430 ms</span>
+                <span class="method-start">140501 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">OpenNewAccountTest</span>
-                <span class="method-start">145422 ms</span>
+                <span class="method-start">144381 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">164224 ms</span>
+                <span class="method-start">163539 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
