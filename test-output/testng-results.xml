@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="10" passed="7" failed="3" skipped="0">
+<testng-results ignored="0" total="9" passed="6" failed="3" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-12T14:05:42 IST" name="ParaBankingSuite" finished-at="2023-08-12T14:08:26 IST" duration-ms="164435">
+  <suite started-at="2023-08-27T21:22:32 IST" name="ParaBankingSuite" finished-at="2023-08-27T21:24:44 IST" duration-ms="131658">
     <groups>
     </groups>
-    <test started-at="2023-08-12T14:05:42 IST" name="ParaBanking Test" finished-at="2023-08-12T14:08:26 IST" duration-ms="164435">
+    <test started-at="2023-08-27T21:22:32 IST" name="ParaBanking Test" finished-at="2023-08-27T21:24:44 IST" duration-ms="131658">
       <class name="com.parabank.testCases.PB_OpenNewAccount_TestCase">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.parabank.testCases.PB_OpenNewAccount_TestCase@5c18016b]" started-at="2023-08-12T14:08:02 IST" name="setup" finished-at="2023-08-12T14:08:06 IST" duration-ms="3879" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.parabank.testCases.PB_OpenNewAccount_TestCase@25bc0606]" started-at="2023-08-27T21:24:12 IST" name="setup" finished-at="2023-08-27T21:24:19 IST" duration-ms="6136" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,17 +18,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="OpenNewAccountTest()[pri:0, instance:com.parabank.testCases.PB_OpenNewAccount_TestCase@5c18016b]" started-at="2023-08-12T14:08:06 IST" name="OpenNewAccountTest" finished-at="2023-08-12T14:08:25 IST" duration-ms="19158" status="PASS">
+        <test-method signature="OpenNewAccountTest()[pri:0, instance:com.parabank.testCases.PB_OpenNewAccount_TestCase@25bc0606]" started-at="2023-08-27T21:24:19 IST" name="OpenNewAccountTest" finished-at="2023-08-27T21:24:43 IST" duration-ms="24637" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenNewAccountTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.parabank.testCases.PB_OpenNewAccount_TestCase@5c18016b]" started-at="2023-08-12T14:08:25 IST" name="tearDown" finished-at="2023-08-12T14:08:26 IST" duration-ms="571" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.parabank.testCases.PB_OpenNewAccount_TestCase@25bc0606]" started-at="2023-08-27T21:24:43 IST" name="tearDown" finished-at="2023-08-27T21:24:44 IST" duration-ms="470" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.parabank.testCases.PB_OpenNewAccount_TestCase -->
       <class name="com.parabank.testCases.PB_Login_TestCase">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.parabank.testCases.PB_Login_TestCase@5d1659ea]" started-at="2023-08-12T14:07:16 IST" name="setup" finished-at="2023-08-12T14:07:20 IST" duration-ms="4726" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.parabank.testCases.PB_Login_TestCase@3c989952]" started-at="2023-08-27T21:23:22 IST" name="setup" finished-at="2023-08-27T21:23:24 IST" duration-ms="2628" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -39,11 +39,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginTest()[pri:0, instance:com.parabank.testCases.PB_Login_TestCase@5d1659ea]" started-at="2023-08-12T14:07:20 IST" name="loginTest" finished-at="2023-08-12T14:07:26 IST" duration-ms="5856" status="PASS">
+        <test-method signature="loginTest()[pri:0, instance:com.parabank.testCases.PB_Login_TestCase@3c989952]" started-at="2023-08-27T21:23:24 IST" name="loginTest" finished-at="2023-08-27T21:23:31 IST" duration-ms="6555" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method signature="loginTestInvalidCredentials()[pri:1, instance:com.parabank.testCases.PB_Login_TestCase@5d1659ea]" started-at="2023-08-12T14:07:26 IST" name="loginTestInvalidCredentials" finished-at="2023-08-12T14:07:33 IST" duration-ms="6626" status="FAIL">
+        <test-method signature="loginTestInvalidCredentials()[pri:1, instance:com.parabank.testCases.PB_Login_TestCase@3c989952]" started-at="2023-08-27T21:23:31 IST" name="loginTestInvalidCredentials" finished-at="2023-08-27T21:23:37 IST" duration-ms="6636" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -89,59 +89,112 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTestInvalidCredentials -->
-        <test-method signature="loginTestWithoutCredentials()[pri:2, instance:com.parabank.testCases.PB_Login_TestCase@5d1659ea]" started-at="2023-08-12T14:07:33 IST" name="loginTestWithoutCredentials" finished-at="2023-08-12T14:07:38 IST" duration-ms="5010" status="PASS">
+        <test-method signature="loginTestWithoutCredentials()[pri:2, instance:com.parabank.testCases.PB_Login_TestCase@3c989952]" started-at="2023-08-27T21:23:37 IST" name="loginTestWithoutCredentials" finished-at="2023-08-27T21:23:42 IST" duration-ms="5017" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTestWithoutCredentials -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.parabank.testCases.PB_Login_TestCase@5d1659ea]" started-at="2023-08-12T14:07:38 IST" name="tearDown" finished-at="2023-08-12T14:07:38 IST" duration-ms="469" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.parabank.testCases.PB_Login_TestCase@3c989952]" started-at="2023-08-27T21:23:42 IST" name="tearDown" finished-at="2023-08-27T21:23:43 IST" duration-ms="494" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.parabank.testCases.PB_Login_TestCase -->
-      <class name="com.parabank.testCases.Demo">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.parabank.testCases.Demo@25bc0606]" started-at="2023-08-12T14:06:39 IST" name="setUp" finished-at="2023-08-12T14:06:40 IST" duration-ms="767" status="PASS">
+      <class name="com.parabank.testCases.PB_Register_TestCase">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.parabank.testCases.PB_Register_TestCase@2eced48b]" started-at="2023-08-27T21:22:32 IST" name="setup" finished-at="2023-08-27T21:22:40 IST" duration-ms="7811" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="testDemo()[pri:0, instance:com.parabank.testCases.Demo@25bc0606]" started-at="2023-08-12T14:06:40 IST" name="testDemo" finished-at="2023-08-12T14:07:15 IST" duration-ms="35061" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
+        </test-method> <!-- setup -->
+        <test-method signature="RegisterTest()[pri:0, instance:com.parabank.testCases.PB_Register_TestCase@2eced48b]" started-at="2023-08-27T21:22:40 IST" name="RegisterTest" finished-at="2023-08-27T21:22:47 IST" duration-ms="7076" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisterTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.parabank.testCases.PB_Register_TestCase@2eced48b]" started-at="2023-08-27T21:22:47 IST" name="tearDown" finished-at="2023-08-27T21:22:48 IST" duration-ms="483" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.parabank.testCases.PB_Register_TestCase -->
+      <class name="com.parabank.testCases.PB_TransferFunds_TestCase">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.parabank.testCases.PB_TransferFunds_TestCase@3d3ba765]" started-at="2023-08-27T21:23:43 IST" name="setup" finished-at="2023-08-27T21:23:49 IST" duration-ms="6515" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TransferFundsWithoutAmountTest()[pri:1, instance:com.parabank.testCases.PB_TransferFunds_TestCase@3d3ba765]" started-at="2023-08-27T21:23:49 IST" name="TransferFundsWithoutAmountTest" finished-at="2023-08-27T21:24:07 IST" duration-ms="17765" status="FAIL">
+          <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[text() = "18894"]"}
-  (Session info: chrome=115.0.5790.171)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'MASUM', ip: '192.168.29.117', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.171, chrome: {chromedriverVersion: 115.0.5790.170 (cc0d30c2ca5..., userDataDir: C:\Users\masum\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54641}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 49c757d95cdc85ea466306967ccf731b
-*** Element info: {Using=xpath, value=//*[text() = "18894"]}]]>
+              <![CDATA[expected [true] but found [false]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[text() = "18894"]"}
-  (Session info: chrome=115.0.5790.171)
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at com.parabank.testCases.PB_TransferFunds_TestCase.TransferFundsWithoutAmountTest(PB_TransferFunds_TestCase.java:54)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TransferFundsWithoutAmountTest -->
+        <test-method signature="TransferFundsWithValidDetailsTest()[pri:2, instance:com.parabank.testCases.PB_TransferFunds_TestCase@3d3ba765]" started-at="2023-08-27T21:24:07 IST" name="TransferFundsWithValidDetailsTest" finished-at="2023-08-27T21:24:12 IST" duration-ms="4736" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Cannot locate option with index: 1
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'MASUM', ip: '192.168.29.117', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.171, chrome: {chromedriverVersion: 115.0.5790.170 (cc0d30c2ca5..., userDataDir: C:\Users\masum\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54641}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 49c757d95cdc85ea466306967ccf731b
-*** Element info: {Using=xpath, value=//*[text() = "18894"]}
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at com.parabank.testCases.Demo.testDemo(Demo.java:38)
+System info: host: 'MASUM', ip: '192.168.0.106', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: unknown]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Cannot locate option with index: 1
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MASUM', ip: '192.168.0.106', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: unknown
+at org.openqa.selenium.support.ui.Select.setSelectedByIndex(Select.java:297)
+at org.openqa.selenium.support.ui.Select.selectByIndex(Select.java:172)
+at com.parabank.testCases.PB_TransferFunds_TestCase.TransferFundsWithValidDetailsTest(PB_TransferFunds_TestCase.java:74)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -175,110 +228,14 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testDemo -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.parabank.testCases.Demo@25bc0606]" started-at="2023-08-12T14:07:15 IST" name="tearDown" finished-at="2023-08-12T14:07:16 IST" duration-ms="459" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.parabank.testCases.Demo -->
-      <class name="com.parabank.testCases.PB_Register_TestCase">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.parabank.testCases.PB_Register_TestCase@5c8504fd]" started-at="2023-08-12T14:05:42 IST" name="setup" finished-at="2023-08-12T14:05:50 IST" duration-ms="8167" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="RegisterTest()[pri:0, instance:com.parabank.testCases.PB_Register_TestCase@5c8504fd]" started-at="2023-08-12T14:05:50 IST" name="RegisterTest" finished-at="2023-08-12T14:06:07 IST" duration-ms="17113" status="FAIL">
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[Expected condition failed: waiting for title to contain "ParaBank | Customer Created". Current title: "ParaBank | Register for Free Online Account Access" (tried for 15 second(s) with 500 milliseconds interval)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'MASUM', ip: '192.168.29.117', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.171, chrome: {chromedriverVersion: 115.0.5790.170 (cc0d30c2ca5..., userDataDir: C:\Users\masum\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54596}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 239d118c53f679d9376498f1c444716e]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for title to contain "ParaBank | Customer Created". Current title: "ParaBank | Register for Free Online Account Access" (tried for 15 second(s) with 500 milliseconds interval)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'MASUM', ip: '192.168.29.117', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.171, chrome: {chromedriverVersion: 115.0.5790.170 (cc0d30c2ca5..., userDataDir: C:\Users\masum\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54596}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 239d118c53f679d9376498f1c444716e
-at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
-at com.parabank.testCases.PB_Register_TestCase.RegisterTest(PB_Register_TestCase.java:60)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:848)
-at org.testng.TestRunner.run(TestRunner.java:621)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-at org.testng.TestNG.runSuites(TestNG.java:1114)
-at org.testng.TestNG.run(TestNG.java:1082)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- RegisterTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.parabank.testCases.PB_Register_TestCase@5c8504fd]" started-at="2023-08-12T14:06:07 IST" name="tearDown" finished-at="2023-08-12T14:06:08 IST" duration-ms="476" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.parabank.testCases.PB_Register_TestCase -->
-      <class name="com.parabank.testCases.PB_TransferFunds_TestCase">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.parabank.testCases.PB_TransferFunds_TestCase@1951b871]" started-at="2023-08-12T14:07:38 IST" name="setup" finished-at="2023-08-12T14:07:43 IST" duration-ms="4369" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="TransferFundsWithoutAmountTest()[pri:1, instance:com.parabank.testCases.PB_TransferFunds_TestCase@1951b871]" started-at="2023-08-12T14:07:43 IST" name="TransferFundsWithoutAmountTest" finished-at="2023-08-12T14:07:54 IST" duration-ms="11615" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TransferFundsWithoutAmountTest -->
-        <test-method signature="TransferFundsWithValidDetailsTest()[pri:2, instance:com.parabank.testCases.PB_TransferFunds_TestCase@1951b871]" started-at="2023-08-12T14:07:54 IST" name="TransferFundsWithValidDetailsTest" finished-at="2023-08-12T14:08:02 IST" duration-ms="7559" status="PASS">
-          <reporter-output>
-          </reporter-output>
         </test-method> <!-- TransferFundsWithValidDetailsTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.parabank.testCases.PB_TransferFunds_TestCase@1951b871]" started-at="2023-08-12T14:08:02 IST" name="tearDown" finished-at="2023-08-12T14:08:02 IST" duration-ms="523" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.parabank.testCases.PB_TransferFunds_TestCase@3d3ba765]" started-at="2023-08-27T21:24:12 IST" name="tearDown" finished-at="2023-08-27T21:24:12 IST" duration-ms="503" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.parabank.testCases.PB_TransferFunds_TestCase -->
       <class name="com.parabank.testCases.PB_Bill_Pay_TestCase">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.parabank.testCases.PB_Bill_Pay_TestCase@3d3ba765]" started-at="2023-08-12T14:06:08 IST" name="setup" finished-at="2023-08-12T14:06:13 IST" duration-ms="5183" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.parabank.testCases.PB_Bill_Pay_TestCase@3e14c16d]" started-at="2023-08-27T21:22:48 IST" name="setup" finished-at="2023-08-27T21:22:53 IST" duration-ms="5231" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -289,15 +246,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="BillPayWithValidDetailsTest()[pri:1, instance:com.parabank.testCases.PB_Bill_Pay_TestCase@3d3ba765]" started-at="2023-08-12T14:06:13 IST" name="BillPayWithValidDetailsTest" finished-at="2023-08-12T14:06:32 IST" duration-ms="19051" status="PASS">
+        <test-method signature="BillPayWithValidDetailsTest()[pri:1, instance:com.parabank.testCases.PB_Bill_Pay_TestCase@3e14c16d]" started-at="2023-08-27T21:22:53 IST" name="BillPayWithValidDetailsTest" finished-at="2023-08-27T21:23:14 IST" duration-ms="21139" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BillPayWithValidDetailsTest -->
-        <test-method signature="BillPayWithoutAmountTest()[pri:2, instance:com.parabank.testCases.PB_Bill_Pay_TestCase@3d3ba765]" started-at="2023-08-12T14:06:32 IST" name="BillPayWithoutAmountTest" finished-at="2023-08-12T14:06:39 IST" duration-ms="6871" status="PASS">
+        <test-method signature="BillPayWithoutAmountTest()[pri:2, instance:com.parabank.testCases.PB_Bill_Pay_TestCase@3e14c16d]" started-at="2023-08-27T21:23:14 IST" name="BillPayWithoutAmountTest" finished-at="2023-08-27T21:23:21 IST" duration-ms="6685" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BillPayWithoutAmountTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.parabank.testCases.PB_Bill_Pay_TestCase@3d3ba765]" started-at="2023-08-12T14:06:39 IST" name="tearDown" finished-at="2023-08-12T14:06:39 IST" duration-ms="427" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.parabank.testCases.PB_Bill_Pay_TestCase@3e14c16d]" started-at="2023-08-27T21:23:21 IST" name="tearDown" finished-at="2023-08-27T21:23:22 IST" duration-ms="506" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

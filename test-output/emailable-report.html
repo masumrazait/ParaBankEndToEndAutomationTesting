@@ -9,53 +9,33 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">ParaBankingSuite</th></tr>
-<tr><td><a href="#t0">ParaBanking Test</a></td><td class="num">7</td><td class="num">0</td><td class="num">0</td><td class="num attn">3</td><td class="num">164,435</td><td></td><td></td></tr>
+<tr><td><a href="#t0">ParaBanking Test</a></td><td class="num">6</td><td class="num">0</td><td class="num">0</td><td class="num attn">3</td><td class="num">131,658</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">ParaBankingSuite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">ParaBanking Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.parabank.testCases.Demo</td><td><a href="#m0">testDemo</a></td><td rowspan="1">1691829400578</td><td rowspan="1">35061</td></tr><tr class="failedodd"><td rowspan="1">com.parabank.testCases.PB_Login_TestCase</td><td><a href="#m1">loginTestInvalidCredentials</a></td><td rowspan="1">1691829446694</td><td rowspan="1">6626</td></tr><tr class="failedeven"><td rowspan="1">com.parabank.testCases.PB_Register_TestCase</td><td><a href="#m2">RegisterTest</a></td><td rowspan="1">1691829350573</td><td rowspan="1">17113</td></tr><tr><th colspan="4">ParaBanking Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">com.parabank.testCases.PB_Bill_Pay_TestCase</td><td><a href="#m3">BillPayWithValidDetailsTest</a></td><td rowspan="1">1691829373447</td><td rowspan="1">19051</td></tr><tr class="passedeven"><td><a href="#m4">BillPayWithoutAmountTest</a></td><td rowspan="1">1691829392507</td><td rowspan="1">6871</td></tr><tr class="passedodd"><td rowspan="2">com.parabank.testCases.PB_Login_TestCase</td><td><a href="#m5">loginTest</a></td><td rowspan="1">1691829440832</td><td rowspan="1">5856</td></tr><tr class="passedodd"><td><a href="#m6">loginTestWithoutCredentials</a></td><td rowspan="1">1691829453324</td><td rowspan="1">5010</td></tr><tr class="passedeven"><td rowspan="1">com.parabank.testCases.PB_OpenNewAccount_TestCase</td><td><a href="#m7">OpenNewAccountTest</a></td><td rowspan="1">1691829486778</td><td rowspan="1">19158</td></tr><tr class="passedodd"><td rowspan="2">com.parabank.testCases.PB_TransferFunds_TestCase</td><td><a href="#m8">TransferFundsWithValidDetailsTest</a></td><td rowspan="1">1691829474811</td><td rowspan="1">7559</td></tr><tr class="passedodd"><td><a href="#m9">TransferFundsWithoutAmountTest</a></td><td rowspan="1">1691829463192</td><td rowspan="1">11615</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">ParaBankingSuite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">ParaBanking Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.parabank.testCases.PB_Login_TestCase</td><td><a href="#m0">loginTestInvalidCredentials</a></td><td rowspan="1">1693151611230</td><td rowspan="1">6636</td></tr><tr class="failedodd"><td rowspan="2">com.parabank.testCases.PB_TransferFunds_TestCase</td><td><a href="#m1">TransferFundsWithValidDetailsTest</a></td><td rowspan="1">1693151647694</td><td rowspan="1">4736</td></tr><tr class="failedodd"><td><a href="#m2">TransferFundsWithoutAmountTest</a></td><td rowspan="1">1693151629905</td><td rowspan="1">17765</td></tr><tr><th colspan="4">ParaBanking Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">com.parabank.testCases.PB_Bill_Pay_TestCase</td><td><a href="#m3">BillPayWithValidDetailsTest</a></td><td rowspan="1">1693151573686</td><td rowspan="1">21139</td></tr><tr class="passedeven"><td><a href="#m4">BillPayWithoutAmountTest</a></td><td rowspan="1">1693151594834</td><td rowspan="1">6685</td></tr><tr class="passedodd"><td rowspan="2">com.parabank.testCases.PB_Login_TestCase</td><td><a href="#m5">loginTest</a></td><td rowspan="1">1693151604667</td><td rowspan="1">6555</td></tr><tr class="passedodd"><td><a href="#m6">loginTestWithoutCredentials</a></td><td rowspan="1">1693151617875</td><td rowspan="1">5017</td></tr><tr class="passedeven"><td rowspan="1">com.parabank.testCases.PB_OpenNewAccount_TestCase</td><td><a href="#m7">OpenNewAccountTest</a></td><td rowspan="1">1693151659083</td><td rowspan="1">24637</td></tr><tr class="passedodd"><td rowspan="1">com.parabank.testCases.PB_Register_TestCase</td><td><a href="#m8">RegisterTest</a></td><td rowspan="1">1693151560777</td><td rowspan="1">7076</td></tr></tbody>
 </table>
-<h2>ParaBanking Test</h2><h3 id="m0">com.parabank.testCases.Demo#testDemo</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[text() = &quot;18894&quot;]&quot;}
-  (Session info: chrome=115.0.5790.171)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;MASUM&apos;, ip: &apos;192.168.29.117&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.171, chrome: {chromedriverVersion: 115.0.5790.170 (cc0d30c2ca5..., userDataDir: C:\Users\masum\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54641}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 49c757d95cdc85ea466306967ccf731b
-*** Element info: {Using=xpath, value=//*[text() = &quot;18894&quot;]}
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at com.parabank.testCases.Demo.testDemo(Demo.java:38)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">com.parabank.testCases.PB_Login_TestCase#loginTestInvalidCredentials</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
+<h2>ParaBanking Test</h2><h3 id="m0">com.parabank.testCases.PB_Login_TestCase#loginTestInvalidCredentials</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
 	at com.parabank.testCases.PB_Login_TestCase.loginTestInvalidCredentials(PB_Login_TestCase.java:66)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 ... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">com.parabank.testCases.PB_Register_TestCase#RegisterTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for title to contain &quot;ParaBank | Customer Created&quot;. Current title: &quot;ParaBank | Register for Free Online Account Access&quot; (tried for 15 second(s) with 500 milliseconds interval)
+<h3 id="m1">com.parabank.testCases.PB_TransferFunds_TestCase#TransferFundsWithValidDetailsTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: Cannot locate option with index: 1
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;MASUM&apos;, ip: &apos;192.168.29.117&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.171, chrome: {chromedriverVersion: 115.0.5790.170 (cc0d30c2ca5..., userDataDir: C:\Users\masum\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54596}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 239d118c53f679d9376498f1c444716e
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
-	at com.parabank.testCases.PB_Register_TestCase.RegisterTest(PB_Register_TestCase.java:60)
+System info: host: &apos;MASUM&apos;, ip: &apos;192.168.0.106&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.setSelectedByIndex(Select.java:297)
+	at org.openqa.selenium.support.ui.Select.selectByIndex(Select.java:172)
+	at com.parabank.testCases.PB_TransferFunds_TestCase.TransferFundsWithValidDetailsTest(PB_TransferFunds_TestCase.java:74)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 ... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.parabank.testCases.PB_TransferFunds_TestCase#TransferFundsWithoutAmountTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
+	at com.parabank.testCases.PB_TransferFunds_TestCase.TransferFundsWithoutAmountTest(PB_TransferFunds_TestCase.java:54)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m3">com.parabank.testCases.PB_Bill_Pay_TestCase#BillPayWithValidDetailsTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m4">com.parabank.testCases.PB_Bill_Pay_TestCase#BillPayWithoutAmountTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m5">com.parabank.testCases.PB_Login_TestCase#loginTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m6">com.parabank.testCases.PB_Login_TestCase#loginTestWithoutCredentials</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m7">com.parabank.testCases.PB_OpenNewAccount_TestCase#OpenNewAccountTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m8">com.parabank.testCases.PB_TransferFunds_TestCase#TransferFundsWithValidDetailsTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m9">com.parabank.testCases.PB_TransferFunds_TestCase#TransferFundsWithoutAmountTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">com.parabank.testCases.PB_Register_TestCase#RegisterTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
