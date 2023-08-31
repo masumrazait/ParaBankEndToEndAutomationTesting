@@ -1,7 +1,6 @@
 package com.parabank.testCases;
 
 import java.io.IOException;
-import java.time.Duration;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
@@ -25,7 +24,7 @@ public class PB_Bill_Pay_TestCase extends BaseClass {
 		BillPayPage bP = new BillPayPage(driver);
 
 		lp.setUsername(readconfig.getUsernameID());
-		logger.info("User entered the User Name:");http://influencerlabs.in/career.html
+		logger.info("User entered the User Name:");
 
 		lp.setPassword(readconfig.getUserPasswordId());
 		logger.info("User entered the password:");
