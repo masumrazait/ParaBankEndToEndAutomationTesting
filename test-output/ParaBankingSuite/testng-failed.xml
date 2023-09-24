@@ -14,9 +14,33 @@
           <include name="tearDown"/>
         </methods>
       </class> <!-- com.parabank.testCases.PB_Register_TestCase -->
+      <class name="com.parabank.testCases.PB_OpenNewAccount_TestCase">
+        <methods>
+          <include name="setup"/>
+          <include name="OpenNewAccountTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.parabank.testCases.PB_OpenNewAccount_TestCase -->
+      <class name="com.parabank.testCases.PB_TransferFunds_TestCase">
+        <methods>
+          <include name="setup"/>
+          <include name="TransferFundsWithValidDetailsTest"/>
+          <include name="tearDown"/>
+          <include name="TransferFundsWithoutAmountTest"/>
+        </methods>
+      </class> <!-- com.parabank.testCases.PB_TransferFunds_TestCase -->
+      <class name="com.parabank.testCases.PB_Bill_Pay_TestCase">
+        <methods>
+          <include name="setup"/>
+          <include name="BillPayWithValidDetailsTest"/>
+          <include name="tearDown"/>
+          <include name="BillPayWithoutAmountTest"/>
+        </methods>
+      </class> <!-- com.parabank.testCases.PB_Bill_Pay_TestCase -->
       <class name="com.parabank.testCases.PB_Login_TestCase">
         <methods>
           <include name="setup"/>
+          <include name="loginTest"/>
           <include name="tearDown"/>
           <include name="loginTestInvalidCredentials"/>
         </methods>
