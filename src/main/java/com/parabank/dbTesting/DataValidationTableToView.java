@@ -1,6 +1,5 @@
 package com.parabank.dbTesting;
 
-import java.awt.*;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.sql.ResultSet;
@@ -17,7 +16,7 @@ public class DataValidationTableToView {
 		DbManager.setMsqlDbConnection();
 
 		// Get data from the table
-		List<Map<String, Object>> tableData = getTableData("select * from mypersonaldata.population_data limit 2");
+		List<Map<String, Object>> tableData = getTableData("SELECT * FROM mypersonaldb.population_data limit 2");
 		System.out.println("************************** Data validation from Table: *************************"+"\n");
 		printData(tableData);
 		System.out.println("\n");
