@@ -3932,3 +3932,27 @@
 2023-09-14 15:42:38,816 - ParaBanking -INFO - User entered the User Name:
 2023-09-14 15:42:38,905 - ParaBanking -INFO - User entered the password:
 2023-09-14 15:42:41,518 - ParaBanking -INFO - User clicked on Login Button
+2023-12-01 21:20:47,773 - ParaBanking -INFO - URL is opened
+2023-12-01 21:21:21,215 - ParaBanking -INFO - URL is opened
+2023-12-01 21:21:21,259 - ParaBanking -INFO - URL is opened
+2023-12-01 21:21:26,406 - ParaBanking -INFO - URL is opened
+2023-12-01 21:21:26,432 - ParaBanking -INFO - URL is opened
+2023-12-01 21:21:26,458 - ParaBanking -INFO - URL is opened
+2023-12-01 21:21:26,458 - ParaBanking -INFO - User did not entered userId
+2023-12-01 21:21:26,459 - ParaBanking -INFO - User did not entered password
+2023-12-01 21:21:26,459 - ParaBanking -INFO - User click on login button.
+2023-12-01 21:21:41,282 - ParaBanking -INFO - URL is opened
+2023-12-01 21:21:41,330 - ParaBanking -INFO - URL is opened
+2023-12-01 21:22:07,720 - ParaBanking -INFO - URL is opened
+2024-01-04 22:05:45,272 - ParaBanking -INFO - URL is opened
+2024-01-04 22:05:58,924 - ParaBanking -INFO - URL is opened
+2024-01-04 22:06:09,017 - ParaBanking -INFO - URL is opened
+2024-01-04 22:06:21,933 - ParaBanking -INFO - URL is opened
+2024-01-04 22:06:31,988 - ParaBanking -INFO - URL is opened
+2024-01-04 22:06:42,037 - ParaBanking -INFO - URL is opened
+2024-01-04 22:06:42,037 - ParaBanking -INFO - User did not entered userId
+2024-01-04 22:06:42,037 - ParaBanking -INFO - User did not entered password
+2024-01-04 22:06:42,037 - ParaBanking -INFO - User click on login button.
+2024-01-04 22:06:50,143 - ParaBanking -INFO - URL is opened
+2024-01-04 22:07:00,199 - ParaBanking -INFO - URL is opened
+2024-01-04 22:07:12,404 - ParaBanking -INFO - URL is opened
