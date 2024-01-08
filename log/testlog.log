@@ -3956,3 +3956,81 @@
 2024-01-04 22:06:50,143 - ParaBanking -INFO - URL is opened
 2024-01-04 22:07:00,199 - ParaBanking -INFO - URL is opened
 2024-01-04 22:07:12,404 - ParaBanking -INFO - URL is opened
+2024-01-08 19:09:41,100 - ParaBanking -INFO - URL is opened
+2024-01-08 19:09:42,074 - ParaBanking -INFO - User clicked on register Link
+2024-01-08 19:09:42,168 - ParaBanking -INFO - User Entered the First Name.
+2024-01-08 19:09:42,234 - ParaBanking -INFO - User Entered the Last Name.
+2024-01-08 19:09:42,296 - ParaBanking -INFO - User Entered the Address.
+2024-01-08 19:09:42,366 - ParaBanking -INFO - User Entered the City.
+2024-01-08 19:09:42,427 - ParaBanking -INFO - User Entered the State.
+2024-01-08 19:09:42,496 - ParaBanking -INFO - User Entered the ZipCode.
+2024-01-08 19:09:42,573 - ParaBanking -INFO - User Entered the PhoneNumber.
+2024-01-08 19:09:42,638 - ParaBanking -INFO - User Entered the Ssn.
+2024-01-08 19:09:42,711 - ParaBanking -INFO - User Entered the Username.
+2024-01-08 19:09:42,775 - ParaBanking -INFO - User Entered the Password.
+2024-01-08 19:09:42,838 - ParaBanking -INFO - User Entered the RepeatedPassword.
+2024-01-08 19:09:43,522 - ParaBanking -INFO - Account created Successfully! Customer landed to Para Bank Deshboard
+2024-01-08 19:09:49,690 - ParaBanking -INFO - URL is opened
+2024-01-08 19:09:49,816 - ParaBanking -INFO - User entered the User Name:
+2024-01-08 19:09:49,914 - ParaBanking -INFO - User entered the password:
+2024-01-08 19:09:53,276 - ParaBanking -INFO - User clicked on Login Button
+2024-01-08 19:09:55,484 - ParaBanking -INFO - URL is opened
+2024-01-08 19:10:20,147 - ParaBanking -INFO - URL is opened
+2024-01-08 19:10:20,236 - ParaBanking -INFO - User entered the User Name:
+2024-01-08 19:10:20,332 - ParaBanking -INFO - User entered the password:
+2024-01-08 19:10:23,088 - ParaBanking -INFO - User clicked on Login Button
+2024-01-08 19:10:25,291 - ParaBanking -INFO - URL is opened
+2024-01-08 19:10:25,349 - ParaBanking -INFO - Entered Invalid User Id
+2024-01-08 19:10:28,446 - ParaBanking -INFO - Entered Wrong password
+2024-01-08 19:10:33,858 - ParaBanking -INFO - URL is opened
+2024-01-08 19:10:33,858 - ParaBanking -INFO - User did not entered userId
+2024-01-08 19:10:33,858 - ParaBanking -INFO - User did not entered password
+2024-01-08 19:10:33,858 - ParaBanking -INFO - User click on login button.
+2024-01-08 19:10:54,540 - ParaBanking -INFO - URL is opened
+2024-01-08 19:10:54,633 - ParaBanking -INFO - User entered the User Name:
+2024-01-08 19:10:54,724 - ParaBanking -INFO - User entered the password:
+2024-01-08 19:10:58,317 - ParaBanking -INFO - User clicked on Login Button
+2024-01-08 19:11:00,512 - ParaBanking -INFO - URL is opened
+2024-01-08 19:11:21,284 - ParaBanking -INFO - URL is opened
+2024-01-08 19:11:21,362 - ParaBanking -INFO - User entered the User Name:
+2024-01-08 19:11:21,438 - ParaBanking -INFO - User entered the password:
+2024-01-08 19:11:24,587 - ParaBanking -INFO - User clicked on Login Button
+2024-01-08 19:13:06,773 - ParaBanking -INFO - URL is opened
+2024-01-08 19:13:07,388 - ParaBanking -INFO - User clicked on register Link
+2024-01-08 19:13:07,507 - ParaBanking -INFO - User Entered the First Name.
+2024-01-08 19:13:07,581 - ParaBanking -INFO - User Entered the Last Name.
+2024-01-08 19:13:07,672 - ParaBanking -INFO - User Entered the Address.
+2024-01-08 19:13:07,746 - ParaBanking -INFO - User Entered the City.
+2024-01-08 19:13:07,815 - ParaBanking -INFO - User Entered the State.
+2024-01-08 19:13:07,901 - ParaBanking -INFO - User Entered the ZipCode.
+2024-01-08 19:13:08,000 - ParaBanking -INFO - User Entered the PhoneNumber.
+2024-01-08 19:13:08,072 - ParaBanking -INFO - User Entered the Ssn.
+2024-01-08 19:13:08,153 - ParaBanking -INFO - User Entered the Username.
+2024-01-08 19:13:08,230 - ParaBanking -INFO - User Entered the Password.
+2024-01-08 19:13:08,318 - ParaBanking -INFO - User Entered the RepeatedPassword.
+2024-01-08 19:13:09,681 - ParaBanking -INFO - Account created Successfully! Customer landed to Para Bank Deshboard
+2024-01-08 19:13:15,018 - ParaBanking -INFO - URL is opened
+2024-01-08 19:13:15,117 - ParaBanking -INFO - User entered the User Name:
+2024-01-08 19:13:15,200 - ParaBanking -INFO - User entered the password:
+2024-01-08 19:13:18,588 - ParaBanking -INFO - User clicked on Login Button
+2024-01-08 19:13:20,812 - ParaBanking -INFO - URL is opened
+2024-01-08 19:13:35,060 - ParaBanking -INFO - URL is opened
+2024-01-08 19:13:35,176 - ParaBanking -INFO - User entered the User Name:
+2024-01-08 19:13:35,286 - ParaBanking -INFO - User entered the password:
+2024-01-08 19:13:37,956 - ParaBanking -INFO - User clicked on Login Button
+2024-01-08 19:13:40,221 - ParaBanking -INFO - URL is opened
+2024-01-08 19:13:40,273 - ParaBanking -INFO - Entered Invalid User Id
+2024-01-08 19:13:43,363 - ParaBanking -INFO - Entered Wrong password
+2024-01-08 19:13:47,326 - ParaBanking -INFO - URL is opened
+2024-01-08 19:13:47,331 - ParaBanking -INFO - User did not entered userId
+2024-01-08 19:13:47,331 - ParaBanking -INFO - User did not entered password
+2024-01-08 19:13:47,334 - ParaBanking -INFO - User click on login button.
+2024-01-08 19:13:57,352 - ParaBanking -INFO - URL is opened
+2024-01-08 19:13:57,440 - ParaBanking -INFO - User entered the User Name:
+2024-01-08 19:13:57,529 - ParaBanking -INFO - User entered the password:
+2024-01-08 19:14:00,176 - ParaBanking -INFO - User clicked on Login Button
+2024-01-08 19:14:02,405 - ParaBanking -INFO - URL is opened
+2024-01-08 19:14:16,922 - ParaBanking -INFO - URL is opened
+2024-01-08 19:14:17,061 - ParaBanking -INFO - User entered the User Name:
+2024-01-08 19:14:17,187 - ParaBanking -INFO - User entered the password:
+2024-01-08 19:14:19,973 - ParaBanking -INFO - User clicked on Login Button

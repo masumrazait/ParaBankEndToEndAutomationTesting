@@ -7,20 +7,6 @@
   <test thread-count="5" name="ParaBanking Test(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="com.parabank.testCases.PB_Register_TestCase">
-        <methods>
-          <include name="setup"/>
-          <include name="RegisterTest"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- com.parabank.testCases.PB_Register_TestCase -->
-      <class name="com.parabank.testCases.PB_OpenNewAccount_TestCase">
-        <methods>
-          <include name="setup"/>
-          <include name="OpenNewAccountTest"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- com.parabank.testCases.PB_OpenNewAccount_TestCase -->
       <class name="com.parabank.testCases.PB_TransferFunds_TestCase">
         <methods>
           <include name="setup"/>
@@ -37,6 +23,13 @@
           <include name="BillPayWithoutAmountTest"/>
         </methods>
       </class> <!-- com.parabank.testCases.PB_Bill_Pay_TestCase -->
+      <class name="com.parabank.testCases.PB_OpenNewAccount_TestCase">
+        <methods>
+          <include name="setup"/>
+          <include name="OpenNewAccountTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.parabank.testCases.PB_OpenNewAccount_TestCase -->
       <class name="com.parabank.testCases.PB_Login_TestCase">
         <methods>
           <include name="setup"/>
